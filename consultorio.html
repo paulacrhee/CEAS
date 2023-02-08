@@ -1,0 +1,2537 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+
+    <!-- cdn link  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="shortcut icon" type="image/png" href="img/logo2.png" />
+
+
+    <title>Confederación Española de Asociaciones de Altas Capacidades</title>
+    <meta name="description" content="Confederación Española de Asociaciones de Altas Capacidades" />
+    <!--<meta property="og:title" content="Confederación Española de Asociaciones de Altas Capacidades" />
+<meta property="og:description" content="A blog about frontend web development - tips, tricks, use cases, how-tos, examples, stories." />
+<meta property="og:url" content="https://nikitahl.com/" />
+<meta property="og:image" content="https://nikitahl.com/images/icons/twitter-image.png" />
+
+<meta name="twitter:title" content="Frontend Dev Blog">
+<meta name="twitter:description" content="A blog about frontend web development - tips, tricks, use cases, how-tos, examples, stories.">
+<meta name="twitter:image" content="https://nikitahl.com/images/icons/twitter-image.png">
+<meta name="twitter:card" content="summary_large_image">--->
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+
+    <div class="top-nav shadow-sm" id="home">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-auto">
+                </div>
+                <div class="col-auto">
+                    <div class="row">
+                        <div class="col-sm">
+                            <div class="ml-3" id="google_translate_element"></div>
+                        </div>
+                        <div class="col-sm mb-3">
+                            <div class="social-links text-center text-lg-right pt-3 pt-lg-0">
+                                <a href="#" class="increaseFont"><i class='bx bx-font-size'></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg shadow-sm navbar-light bg-white bg-gradient">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="quienes-somos.html">Quiénes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="que-hacemos.html">Qué Hacemos</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="legislacion.html" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Legislación
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="nav-link dropdown-item" href="legislacion.html">Qué dicen las Leyes </a></li>
+                            <li><a class="nav-link dropdown-item" href="criterios.html">Criterio y Normativas </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="consultorio.html">Consultorio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="articulos.html">Artículos</a>
+                    </li>
+
+                </ul>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" type="button"
+                    class="btn btn-brand ms-lg-3 ml-5">Contacto</a>
+            </div>
+        </div>
+    </nav>
+    <div class="image-aboutus-banner" id="about-us-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="lg-text">Consultorio</h1>
+                    <p class="image-aboutus-para">“Todas vuestras consultas”</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bread-bar mb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-8">
+                    <ol class="breadcrumb">
+                        <li><a href="index.html">Inicio</a></li>
+                        <li class="active">Consultorio</li>
+                    </ol>
+                </div>
+                <div class="col-md-4 col-sm-6 col-xs-4">
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-2">
+
+                </div>
+            </div>
+            <div class="container">
+                <div class="row consultorio">
+                    <div class="col-md-12">
+                        <div class="row">
+
+                            <h6 class="m-3">
+
+                                LAS DEFINICIONES CIENTÍFICAS
+                            </h6>
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item mb-3">
+                                    <h2 class=" accordion-header m-3 mr-2" id="headingOne">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            <strong>La Ley de superior rango que establece la
+                                                metodología de los centros educativos: El Tratado
+                                                Internacional Convención de Naciones Unidas,
+                                                ratificado por España (BOE de 21 de abril de 2008),
+                                                preceptúa la Educación Inclusiva, a todos los
+                                                centros educativos, ¿Es lo mismo la educación
+                                                inclusiva que la educación personalizada?</strong>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseOne" class="accordion-collapse collapse"
+                                        aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                        <div class="card-body text-justify">
+                                            <p>
+                                                Naciones Unidas para facilitar la implementación del
+                                                <a target="_blank"
+                                                    href=" https://altascapacidades.es/portalEducacion/html/otrosmedios/Convenci%C3%B3n%20Internacional1.pdf ">Tratado
+                                                    Internacional Convención de Naciones
+                                                    Unidas,</a>
+                                                publica Informes, Observaciones Generales o
+                                                Comentarios Generales. Todos ellos son de obligado
+                                                cumplimiento para los Estados que han firmado el
+                                                Tratado Internacional (Estados Parte).
+                                            </p>
+                                            <p>
+                                                El Párrafo 12 de la Observación General o Comentario
+                                                General Nº 4 (CG-4), de 13 de septiembre de 2016,
+                                                lleva por título “Las características fundamentales
+                                                de la Educación Inclusiva”. Su apartado c) se
+                                                titula: “Enfoque personal global”, y establece:
+                                            </p>
+                                            <strong>“El sistema educativo debe proporcionar una
+                                                respuesta educativa personalizada”.</strong><br /><br />
+
+                                            El mismo
+                                            <a target="_blank"
+                                                href="     https://altascapacidades.es/portalEducacion/contenidos/noticia/Derecho-a-la-Educacion-Inclusiva-Art-24-Comentario-ONU-2016.pdf ">Párrafo
+                                                12 </a>más adelante añade:
+                                            <strong>“La inclusión asume un enfoque individualizado a
+                                                los estudiantes”.
+                                            </strong>
+                                            <br /><br />
+
+                                            <p>
+                                                Por tanto, podemos afirmar que la educación
+                                                personalizada es una característica fundamental de
+                                                la preceptiva Educación Inclusiva. Pero la Educación
+                                                Inclusiva va mas allá de la metodología que adopta
+                                                un aula, pues además exige que todo el sistema
+                                                educativo en su integridad sea inclusivo y lo sea a
+                                                todos los niveles. El mismo texto del Tratado
+                                                Internacional Convención de Naciones Unidas, en su
+                                                artículo 24 se refiere a los compromisos a que se
+                                                obligan los Estados Partes o firmantes, en este caso
+                                                el Estado Español, con la educación inclusiva,
+                                                expresando su obligación con la educación inclusiva
+                                                en estos términos: “Los Estados Partes asegurarán un
+                                                sistema de educación inclusivo a todos los niveles”.
+                                            </p>
+                                            Observemos que el compromiso de los Estados Partes no
+                                            se limita a asegurar únicamente que en cada centro
+                                            educativo habrá un aula de educación inclusiva, ni
+                                            solo que la educación inclusiva (o personalizada) será
+                                            la metodología en todas las aulas de todos los centros
+                                            educativos, sino que el compromiso u obligación del
+                                            Estado alcanza hasta asegurar que el sistema educativo
+                                            en su conjunto será inclusivo y además, a todos los
+                                            niveles.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <h6 class="m-3 ">
+                                LA IDENTIFICACIÓN Y EL DIAGNÓSTICO
+
+                            </h6>
+
+                            <div class="accordion" id="accordionExample">
+                                <div class="accordion-item mb-3">
+                                    <h2 class=" accordion-header m-3 mr-2" id="headingTwo">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            <strong>¿Es posible conocer si un niño es Superdotado o de
+                                                Altas Capacidades, mediante una evaluación
+                                                psicopedagógica?</strong>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body m-3">
+                                            <p>
+                                                No. No es posible conocer si una persona se halla en
+                                                la Superdotación o en las Altas Capacidades mediante
+                                                una evaluación Psicopedagógica. La razón es muy
+                                                clara:
+                                            </p>
+                                            <p>
+                                                La inteligencia humana es multidimensional. “Su
+                                                naturaleza es, ontogenética: neurobiológica,
+                                                neuropsicológica y epigenética o socio-pedagógica,
+                                                en interacción, permanente, es decir,
+                                                multidimensional, y bio-psico-social”. <br />
+                                                Esta es una fundamental coincidencia de entre todos
+                                                los científicos especializados más prestigiosos del
+                                                mundo.
+                                                <a target="_blank"
+                                                    href=" https://altascapacidadescse.org/cse/shop/Guia%20Cient%c3%adfica%20ICP18.pdf  ">(Ver
+                                                    Conclusión Primera: “La naturaleza de la
+                                                    Inteligencia Humana” en “Guía Científica de las
+                                                    Altas Capacidades”, página 186 y Definición,
+                                                    página 20).</a>
+                                            </p>
+                                            <p>
+                                                La Superdotación, las Altas Capacidades, y, en
+                                                definitiva, todas las especificidades de la
+                                                inteligencia humana son, por tanto,
+                                                multidimensionales, y lo multidimensional sólo es
+                                                identificable mediante diagnóstico multidisciplinar
+                                                o Diagnóstico Bio-psico-social, y equipo
+                                                multidisciplinar.
+                                            </p>
+                                            <p>
+                                                El Tratado Internacional Convención de Naciones
+                                                Unidas, que es nuestra ley de superior rango que
+                                                determina la identificación de las capacidades de
+                                                los estudiantes, en su Artículo 26, establece el
+                                                Diagnóstico de las capacidades intelectuales de los
+                                                estudiantes con la denominación: “Evaluación
+                                                Multidisciplinar de las capacidades y necesidades de
+                                                la persona”.
+                                            </p>
+                                            <p>
+                                                El Ministerio de Educación lo explica con claridad
+                                                mediante su normativa acorde al Tratado
+                                                Internacional: <br />
+                                                <strong>
+                                                    «La detección por parte de las familias o del
+                                                    profesorado forma parte, junto con la posterior
+                                                    evaluación psicopedagógica, del proceso inicial de
+                                                    identificación del niño superdotado; pero no es
+                                                    suficiente. Para determinar que un alumno se halla
+                                                    en los ámbitos de excepcionalidad intelectual, es
+                                                    imprescindible el diagnóstico clínico de
+                                                    profesionales especializados».</strong>
+                                            </p>
+                                            <p>
+                                                El Ministerio de Educación lo explica con claridad
+                                                mediante su normativa acorde al Tratado
+                                                Internacional: «La detección por parte de las
+                                                familias o del profesorado forma parte, junto con la
+                                                posterior evaluación psicopedagógica, del proceso
+                                                inicial de identificación del niño superdotado; pero
+                                                no es suficiente. Para determinar que un alumno se
+                                                halla en los ámbitos de excepcionalidad intelectual,
+                                                es imprescindible el diagnóstico clínico de
+                                                profesionales especializados».
+                                            </p>
+
+                                            <a target="_blank"
+                                                href="http://defensorestudiante.org/Norma%20MEC,redactado%20inicial.html ">Ver
+                                                aquí </a> la Redacción
+                                            del
+                                            Ministerio de Educación.
+                                            <br /><br />
+
+                                            <a target="_blank"
+                                                href="http://defensorestudiante.org/de/archivos/pdf/Escritura_Notarial_Normativa_Ministerio.pdf  ">Testimonio
+                                                notarial:
+                                            </a>
+
+                                            <p>
+                                                Cuando el Ministerio de Educación se refiere al
+                                                “Diagnóstico clínico de Profesionales
+                                                especializados” es exactamente lo mismo que la
+                                                “Evaluación Multidisciplinar de las capacidades y
+                                                necesidades de la persona”, del Artículo 26 del
+                                                Tratado Internacional de Naciones Unidas
+
+                                                <a target="_blank"
+                                                    href=" https://altascapacidadescse.org/cse/shop/Guia%20Cient%c3%adfica%20ICP18.pdf">(Ver
+                                                    tabla de equivalencia o “Correspondencia
+                                                    entre conceptos jurídicos” en página 184.)
+                                                </a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mb-3">
+                                    <h2 class=" accordion-header m-3 mr-2" id="headingThree">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                                            aria-expanded="true" aria-controls="collapseThree">
+                                            <strong>¿Cuál, es, en síntesis, la posición del Ministerio
+                                                de Educación acerca de la identificación y
+                                                diagnóstico de las capacidades y las necesidades de
+                                                los estudiantes y sobre el cambio metodológico que
+                                                necesitan los estudiantes con Altas
+                                                Capacidades?</strong>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body m-3">
+                                            <p>
+                                                Sobre el diagnóstico de las capacidades de los
+                                                estudiantes el Ministerio de Educación inició su
+                                                escrito titulado “Atención a la diversidad en la
+                                                LOE” realizando esta constatación fundamental:
+                                            </p>
+
+                                            <p>
+                                                <strong>“Los diferentes informes de la OCDE, en relación
+                                                    con las características de los países cuyos
+                                                    sistemas educativos obtienen mejores resultados
+                                                    escolares, coinciden en sostener que el factor
+                                                    común a todos ellos es la aplicación de políticas
+                                                    inclusivas, que conllevan un diagnóstico temprano
+                                                    de las necesidades específicas de apoyo educativo
+                                                    de los alumnos con problemas de aprendizaje y una
+                                                    atención personalizada de los mismos”.</strong>
+                                            </p>
+
+                                            <p>
+                                                En el mismo escrito, más adelante el Ministerio de
+                                                Educación, respecto del diagnóstico de las
+                                                capacidades de los estudiantes señala: <br />
+                                                <a target="_blank"
+                                                    href="  https://www.altascapacidadescse.org/documentos/3_atencio_a_la_diversida_loe/Doc._1._Atencion_a_la_Diversidad_en_la_LOE.pdf ">
+                                                    “La atención a la diversidad exige diagnóstico
+                                                    previo de las necesidades específicas de los
+                                                    alumnos y alumnas y soluciones adecuadas en cada
+                                                    caso en función de dicho diagnóstico”.</a>
+                                            </p>
+
+                                            <p>
+                                                La Normativa del Ministerio de Educación sobre el
+                                                diagnóstico de las capacidades de los estudiantes es
+                                                muy clara: <br />
+                                                <strong>«La detección por parte de las familias o del
+                                                    profesorado forma parte, junto con la posterior
+                                                    evaluación psicopedagógica, del proceso inicial de
+                                                    identificación del niño superdotado; pero no es
+                                                    suficiente. Para determinar que un alumno se halla
+                                                    en los ámbitos de excepcionalidad intelectual, es
+                                                    imprescindible el diagnóstico clínico de
+                                                    profesionales especializados».</strong>
+                                            </p>
+                                            <a target="_blank"
+                                                href="http://defensorestudiante.org/Norma%20MEC,redactado%20inicial.html  ">Ver
+                                                Redacción del
+                                                Ministerio.</a>
+                                            <br /><br />
+
+                                            <a target="_blank"
+                                                href="http://defensorestudiante.org/de/archivos/pdf/Escritura_Notarial_Normativa_Ministerio.pdf ">
+                                                Ver Testimonio notarial.</a>
+                                            <br /><br />
+
+                                            <p>
+                                                En cuanto a la educación diferente o cambio
+                                                metodológico que necesitan los niños y niñas con
+                                                Altas Capacidades. <br />
+
+                                                Dra. Violeta Miguel Pérez, Directora del Centro
+                                                Nacional de Innovación e Investigación Educativa del
+                                                Ministerio de Educación, Cultura y Deporte, Doctora
+                                                por la Universidad Camilo José Cela, Cum Laudem.
+                                                Licenciada en Psicopedagogía especialidad “Experto
+                                                en sujetos excepcionales”, en su parlamento en
+                                                representación del Ministerio de Educación, Cultura
+                                                y Deporte. Congreso de Superdotación y Altas
+                                                Capacidades Madrid los días 14 y 15 de octubre del
+                                                2016:
+                                            </p>
+
+                                            <strong>“El alumnado de alta capacidad tiene un cerebro
+                                                diferente, procesa la información de forma
+                                                diferente, almacena la información de forma
+                                                diferente, y lo más importante, recupera la
+                                                información de forma diferente”.</strong>
+                                            <a target="_blank"
+                                                href="         http://www.altascapacidades.es/videos/Violeta%20Miguel%20P%C3%A9rez%20-%20IV-1.mp4 ">Ver
+                                                video</a>
+                                            <br /><br />
+                                            <strong>“Desde el Ministerio de Educación, Cultura y
+                                                Deporte vamos a estar ahí, vamos a estar luchando y
+                                                trabajando por dar respuesta educativa. Tengo que
+                                                decir que para mí no hay nada más injusto que dar la
+                                                misma respuesta educativa a personas diferentes.
+                                                Tenemos que luchar por ello, porque cuando hacemos
+                                                un traje a medida los alumnos son mucho más felices
+                                                y se soluciona todos los problemas”.</strong>
+                                            <a target="_blank"
+                                                href="http://www.altascapacidades.es/videos/Violeta%20Miguel%20P%C3%A9rez%20-%20IV-2.mp4  ">
+                                                Ver video
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mb-3">
+                                    <h2 class=" accordion-header m-3 mr-2" id="headingFour">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                                            aria-expanded="true" aria-controls="collapseFour">
+                                            <strong>
+                                                Buenos días, necesito información sobre la capacidad
+                                                que puede tener la orientadora del colegio de mi
+                                                hijo. <br /><br />
+
+                                                Le hizo unas pruebas de diagnóstico para saber si
+                                                tenía autismo. Me llamó una mañana y me dijo "por
+                                                fin he encontrado el autismo de tu hijo". Me hundí
+                                                completamente, después me citó y me lo dijo
+                                                personalmente. Eso fue cuando mi hijo tenía 5 años,
+                                                ahora tiene 9. No le vemos el autismo, nunca se lo
+                                                vi. Tiene sobresaliente en todas las asignaturas
+                                                desde primero de primaria. A mi hijo, le ha hecho
+                                                perder tiempo dándole un apoyo q no necesita, a mi
+                                                me hizo mucho daño. He tenido q ir al psicólogo
+                                                estos años. Me hubiera gustado que las pruebas se
+                                                las hiciera un psicólogo o psiquiatra. <br /><br />
+
+                                                Este año quiero hacer un escrito para sacarle del
+                                                apoyo y para que no se le acerque la orientadora
+                                                para hacerle preguntas o pruebas. <br /><br />
+
+                                                Estoy haciendo lo correcto, me podéis decir si es
+                                                legal q esas pruebas las realizara ella
+                                                <br /><br />
+                                                Gracias, un saludo. <br />
+                                                Carmen
+                                            </strong>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse"
+                                        aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body m-3">
+                                            Estimada Señora Carmen. <br /><br />
+
+                                            Esto que ha hecho esta orientadora a su hijo es
+                                            extremadamente grave, y, aunque no sea un caso único
+                                            no por esto es menos grave.<br /><br />
+
+                                            Jurídicamente hay que decir, en primer lugar, que el
+                                            autismo es un trastorno del neurodesarrollo, de
+                                            carácter clínico. Y, para que el diagnóstico de un
+                                            trastorno del neurodesarrollo pueda considerarse
+                                            legal, hace falta que se cumplan varios requisitos
+                                            tales como:<br /><br />
+                                            <ol>
+                                                <li>
+                                                    Que se realice en un centro o establecimiento que
+                                                    haya conseguido su reconocimiento de carácter
+                                                    clínico-sanitario y esté dirigido por
+                                                    profesionales con titulación académica de carácter
+                                                    sanitario.
+                                                </li>
+                                                <li>
+                                                    Que el profesional o profesionales que vayan a
+                                                    realizar, o hayan realizado el diagnóstico, se
+                                                    halle en posesión de todas las titulaciones
+                                                    académicas de carácter sanitario y de las
+                                                    colegiaciones profesionales que las leyes exigen.
+                                                </li>
+                                                <li>
+                                                    Si la persona a diagnosticar es un menor es
+                                                    necesario que sus padres o los titulares de su
+                                                    patria potestad hayan encargado dicho diagnóstico
+                                                    o cuanto menos hayan firmado un documento
+                                                    autorizando expresamente el diagnóstico a este
+                                                    profesional.
+                                                </li>
+                                            </ol>
+
+                                            En cuanto a lo señalado en el punto 1, podemos
+                                            adelantar que las escuelas y en general el sistema
+                                            educativo carece de espacios o establecimientos
+                                            sanitarios para poder realizar diagnósticos clínicos o
+                                            parcialmente clínicos. El sistema educativo tiene
+                                            competencias para impartir enseñanzas, pero carece de
+                                            competencias clínicas necesarias para poder realizar
+                                            diagnósticos. <br /><br />
+
+                                            En cuanto apunto 2 podemos avanzar que la legitimidad
+                                            legalmente necesaria para poder realizar diagnósticos
+                                            clínicos no tiene que ver con ser funcionario
+                                            orientador, sino que se adquiere alcanzando la
+                                            titulación académica necesaria. Por otra parte, la ley
+                                            no exige que para ser orientador se deba estar en
+                                            posesión de la titulación académica necesaria para
+                                            poder realizar diagnósticos clínicos, ni siquiera
+                                            exige ser licenciado en psicología y estar colegiado,
+                                            por lo que si en España hubiera un solo orientador que
+                                            poseyera la titulación académica legalmente necesaria
+                                            para poder diagnosticar sería un caso excepcional
+                                            fruto del azar.<br /><br />
+
+                                            En este caso les sugerimos que nos trasladen el nombre
+                                            completo de esta orientadora e inmediatamente
+                                            averiguaremos su titulación académica y si es este
+                                            caso excepcional.<br /><br />
+
+                                            En cuanto al punto 3 pensamos que ustedes no han
+                                            firmado documento alguno autorizando tal diagnóstico,
+                                            pero para mayor seguridad sería de interés que nos lo
+                                            confirmara, <br /><br />
+
+                                            Queremos preguntarle si del diagnóstico de autismo que
+                                            esta orientadora ha hecho a su hijo si les ha dado el
+                                            informe o si existe otro escrito que sirva de prueba
+                                            de que hizo este diagnóstico.<br /><br />
+
+                                            Es muy importante que comprueben si ha hecho constar
+                                            el diagnóstico de autismo en el expediente académico
+                                            de su hijo, lo que revestiría especial gravedad dada
+                                            la dificultad que supone quitarlo.<br /><br />
+
+                                            También hemos de decirle que el hecho de que su hijo
+                                            obtenga sobresaliente en todas las asignaturas es
+                                            estupendo y le felicitamos por ello, pero esto no
+                                            constituye prueba de inexistencia de autismo pues el
+                                            autismo es independiente de la capacidad intelectual.
+                                            Así Albert Einstein, Bill Gates, Pablo Picasso o Leo
+                                            Messi tienen o han tenido cierto grado de autismo. Es
+                                            necesario desmentir el autismo de su hijo ilegalmente
+                                            diagnosticado por esta orientadora mediante un
+                                            diagnóstico que deben encargar en un centro de
+                                            neurología pediátrica o psiquiatría infantil.<br /><br />
+
+                                            Es importante señalar que aún en el supuesto de que el
+                                            diagnóstico de autismo no fuera erróneo, el hecho de
+                                            realizar un diagnóstico de autismo a un niño sin las
+                                            mínimas condiciones legales es un hecho gravísimo que
+                                            es necesario denunciar, pues es constitutivo de varios
+                                            delitos. Si la orientadora les ha presionado para que
+                                            le firmen el impreso que tienen preparado por el que
+                                            autorizarían a realizar el diagnóstico a su hijo,
+                                            habría incurrido, entre otros, en un delito de
+                                            intrusismo tipificado en el Código Civil, Artículo 403
+                                            <a target="_blank"
+                                                href="https://www.altascapacidadescse.org/QUIENPUEDE.pdf ">(Ver Artículo
+                                                “Quién puede
+                                                diagnosticar” del
+                                                Letrado D. José Antonio Latorre Cirera en La
+                                                Vanguardia 8 de enero de 2006)</a>
+                                            <br /><br />
+
+                                            <a target="_blank"
+                                                href=" https://www.altascapacidadescse.org/cse/consultorio/ ">Ver
+                                                también el Consultorio
+                                                Jurídico de las Altas
+                                                Capacidades del Abogado del Estado y Eurodiputado
+                                                representante de España ante el Consejo de Europa D.
+                                                Jorge Buxadé en sus respuestas a las preguntas nº 3
+                                                y 17)
+                                            </a>
+
+                                            Además la orientadora habría incurrido en un delito de
+                                            Coacciones Tipificado en el Código Penal Artículo 172
+
+                                            <a target="_blank"
+                                                href=" http://www.infantojuvenil.eu/sepij/archivos/pdfs/LEYES_EDUCATIVAS_NULAS.pdf ">
+                                                (Ver el artículo: “LAS LEYES EDUCATIVAS NULAS QUE
+                                                IMPONEN A LOS PADRES” del Dr Juan Luis Miranda
+                                                Romero, Médico Psiquiatra y Perito Judicial)</a>
+                                            <br />
+
+                                            <a target="_blank" href="https://defensorestudiante.org/PDF/DJME.pdf">
+                                                (Ver DICTAMEN JURÏDICO DEL MODELO EDUCATIVO).
+                                            </a>
+                                            <p>
+                                                La Entidad El Defensor del Estudiante estarán
+                                                encantados en ofrecerles todo el apoyo y
+                                                colaboración para interponer esta denuncia, incluso
+                                                la posibilidad de que esta Entidad interpongan la
+                                                denuncia. Tengan en cuenta que todos los servicios
+                                                que ofrece El Defensor del Estudiante son gratuitos
+                                                en todos los casos.
+                                                https://www.defensorestudiante.org/
+                                            </p>
+
+                                            En definitiva, por parte de ustedes: <br />
+                                            <ol>
+                                                <li>
+                                                    Necesitamos que nos facilite en nombre completo de
+                                                    esta orientadora para que podamos averiguar la
+                                                    titulación académica que posee y deducir la
+                                                    gravedad del delito cometido.
+                                                </li>
+                                                <li>
+                                                    Necesitamos que nos confirmen si la orientadora
+                                                    les ha entregado el informe del diagnóstico de ese
+                                                    diagnóstico de autismo, o bien si ustedes poseen
+                                                    algún papel que diga que va a realizar este
+                                                    diagnóstico o que lo ha realizado, y si firmaron
+                                                    algún impreso de autorización del diagnóstico o de
+                                                    evaluación psicopedagógica.
+                                                </li>
+                                                <li>
+                                                    Es importante que averigüen si esta orientadora ha
+                                                    hecho constar su diagnóstico de autismo en el
+                                                    expediente académico de su hijo.
+                                                </li>
+                                                <li>
+                                                    Es importante que lo antes posible encarguen un
+                                                    diagnóstico de su hijo en un centro prestigioso de
+                                                    psiquiatría infantil o de neurología pediátrica, o
+                                                    similar (Si nos dicen en qué ciudad o población se
+                                                    hallan quizá podamos ofrecerles orientación),
+                                                    para, en su caso poder instar la anulación del
+                                                    diagnóstico de autismo de esta orientadora,
+                                                    especialmente si ya lo ha pasado al expediente
+                                                    académico, y si como esperamos, se trata de un
+                                                    diagnóstico además de ilegal, erróneo.
+                                                </li>
+                                                <li>
+                                                    Debemos aconsejarle que no haga ese escrito “para
+                                                    sacarle del apoyo y para que no se le acerque la
+                                                    orientadora para hacerle preguntas o pruebas”, sin
+                                                    antes no haber anulado el diagnóstico de autismo
+                                                    de la orientadora, pues encima podrían acusarles
+                                                    de impedir el tratamiento educativo del niño, lo
+                                                    que complicaría enormemente el problema. Es
+                                                    necesario solucionar los temas en el orden que
+                                                    indicamos
+                                                </li>
+                                            </ol>
+
+                                            Quedamos atentos a sus datos. <br />
+
+                                            Reciban nuestro cordial saludo.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mb-3">
+                                    <h2 class=" accordion-header m-3 mr-2" id="headingFifteen">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseFifteen"
+                                            aria-expanded="true" aria-controls="collapseFifteen">
+                                            <strong>
+                                                La Comisión de Naciones Unidas, consecuencia de la denuncia contra el
+                                                Estado Español, que interpuso la Asociación de Padres SOLCÓN, por
+                                                incumplimientos del Tratado Internacional Convención de Naciones Unidas,
+                                                se desplazó por las diferentes comunidades autónomas de España para
+                                                observar el desarrollo de la educación y comprobar con precisión los
+                                                hechos denunciados. ¿Observó y se pronunció acerca de estas prácticas
+                                                que realizan algunos funcionarios orientadores escolares que realizan
+                                                EVALUACIONES PSICOPEDAGÓGICAS con pasación de tests psicológicos, que en
+                                                realidad son INSTRUMENTOS CLÍNICOS, sin tener las titulaciones
+                                                académicas que las leyes exigen, y después las escuelas utilizan los
+                                                informes de estas evaluaciones psicopedagógicas como si se tratara de
+                                                Diagnósticos o Evaluaciones Multidisciplinares?
+                                            </strong>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFifteen" class="accordion-collapse collapse"
+                                        aria-labelledby="headingFifteen" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body m-3">
+                                            Sí, efectivamente la Comisión de Naciones Unidas observó estas prácticas
+                                            ilegales que realizan algunos funcionarios orientadores que carecen de la
+                                            titulación académica que las leyes exigen y realizan lo que denominan
+                                            “evaluaciones psicopedagógicas” a los niños de las escuelas, con frecuencia
+                                            sin conocimiento ni la preceptiva autorización de sus padres. <br /><br />
+                                            <p>La Comisión de Naciones Unidas señaló la eliminación de estas prácticas
+                                                dañinas en su Informe de obligado cumplimiento:</p>
+                                            <p> <i>“Eliminar la excepción de la educación segregada en la legislación
+                                                    educativa <strong>incluyendo la evaluación psicopedagógica y el
+                                                        dictamen de escolarización”</strong> </i> </p>
+                                            <p>Se encuentra en las conclusiones finales, concretamente en su <a
+                                                    href="https://altascapacidades.es/portalEducacion/html/otrosmedios/informe-ONU.pdf "
+                                                    target="_blank">Apartado 2, </a> titulado: “Derecho a la educación”,
+                                                Párrafo 84.c, en su página 18.</p>
+
+                                            <p>Los padres harán bien de denunciar a los funcionarios orientadores que
+                                                realizan estas prácticas ilegales y dañinas, no solamente en vía penal,
+                                                como delito de intrusismo que vulnera el Artículo 403 del Código Penal,
+                                                como explican en este Consultorio eminentes Letrados expertos en Derecho
+                                                a la educación, también por las demás ilegalidades en que estos hechos
+                                                incurren, como explican los Juristas de El Defensor del Estudiantes en
+                                                su <a href="https://defensorestudiante.org/PDF/DJME.pdf "
+                                                    target="_blank">DICTAMEN JURÍDICO DEL MODELO EDUCATIVO.</a>
+                                            </p>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item mb-3">
+                                    <h2 class="accordion-header m-3 mr-2"" id=" headingEighteen">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#collapseEighteen"
+                                            aria-expanded="true" aria-controls="collapseEighteen">
+                                            <strong>
+                                                La Alta Capacidad de nuestro hijo fue correctamente diagnosticada, con
+                                                su correspondiente diagnóstico clínico completo o Evaluación
+                                                Multidisciplinar por un equipo multiprofesional. ¿Es posible que una
+                                                evaluación psicopedagógica de estas que realizan algunos funcionarios
+                                                orientadores pueda descubrir si necesita una aceleración,
+                                                flexibilización o salto de curso?
+                                            </strong>
+                                        </button>
+                                    </h2>
+                                    <div id="collapseEighteen" class="accordion-collapse collapse"
+                                        aria-labelledby="headingEighteen" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body m-3">
+                                            <p>No. No es posible que una evaluación psicopedagógica de estas que
+                                                realizan algunos funcionarios orientadores pueda descubrir si un
+                                                estudiante con alta capacidad necesita, o no, una aceleración,
+                                                flexibilización o salto de curso, ni es posible que pueda descubrir
+                                                ninguna necesidad educativa.</p>
+                                            <p>En términos generales, es necesario partir de la base por la que <b> toda
+                                                    necesidad educativa de aprendizaje diferente es la consecuencia
+                                                    directa de un funcionamiento diferente de la mente, </b>de forma que
+                                                existe una relación causa-efecto o PRINCIPIO DE CAUSALIDAD entre el
+                                                funcionamiento diferente de la mente (La causa) y la necesidad de un
+                                                aprendizaje diferente (El efecto). Y, esas evaluaciones psicopedagógicas
+                                                no tienen que ver con el conocimiento científico del funcionamiento de
+                                                la mente. </p>
+                                            <p><b>Pretender que existe una supuesta necesidad de educación diferente que
+                                                    no provenga del principio de causalidad, es decir, no deducida del
+                                                    conocimiento del funcionamiento de la mente, carece de todo
+                                                    fundamento científico.</b></p>
+                                            <p>El científico norteamericano Dr. Mel Levine lo explica ampliamente en su
+                                                libro: “Mentes diferentes aprendizajes diferentes” (Editorial Paidos).
+                                                También lo explica la <a
+                                                    href="https://altascapacidadescse.org/shop/index.php "
+                                                    target="_blank"> Guía Científica de las Altas Capacidades.</a> </p>
+                                            <p>En este caso concreto se trata de un estudiante con Altas Capacidades
+                                                intelectuales. Siendo así, en su proceso educativo lo primero que hay
+                                                que tener en cuenta es lo que señala el Ministerio de Educación por boca
+                                                de la Inspectora Dra. Violeta Miguel Pérez, Directora del Centro
+                                                Nacional de Innovación e Investigación Educativa del Ministerio de
+                                                Educación, Doctora por la Universidad Camilo José Cela, licenciada en
+                                                Psicopedagogía especialidad “Experto en sujetos excepcionales”, en su
+                                                parlamento en representación del Ministerio de Educación, en el Congreso
+                                                de Superdotación y Altas Capacidades celebrado en Madrid los días 14 y
+                                                15 de octubre del 2016:</p>
+                                            <p>“El alumnado de alta capacidad tiene un cerebro diferente, procesa la
+                                                información de forma diferente, almacena la información de forma
+                                                diferente, y lo más importante, recupera la información de forma
+                                                diferente”. <a
+                                                    href="http://www.altascapacidades.es/videos/Violeta%20Miguel%20P%C3%A9rez%20-%20IV-1.mp4 "
+                                                    target="_blank">Ver video aquí</a></p>
+                                            <p>Por tanto, lo primero que es necesario hacer es comprobar si se ha
+                                                producido el cambio metodológico que estos estudiantes necesitan.
+                                                Seguidamente es necesario comprobar el tipo de Alta Capacidad a la que
+                                                pertenece, teniendo en cuenta que si pertenece a la Alta Capacidad
+                                                DIVERGENTE la aceleración, flexibilización o salto de curso le sería
+                                                totalmente contraindicado.
+                                                Lo explican con claridad los Magistrados del Tribunal Superior de
+                                                Justicia de Castilla-La Mancha en su Sentencia. El caso es en relación a
+                                                de una niña de 6 años, de Alta Capacidad. El equipo multidisciplinar de
+                                                un centro de diagnóstico especializado en su dictamen incluyó una
+                                                aceleración o salto de curso en la respuesta escolar. Esta medida, al
+                                                contravenir la ley que fija la edad cronológica para estar en cada nivel
+                                                educativo, los padres solicitaron la excepción a la Consejería de
+                                                Educación, pero dio la callada por respuesta, lo que obligó a los padres
+                                                a acudir a los Tribunales de Justicia.
+                                            </p>
+                                            <p>Es la Sentencia del Tribunal Superior de Justicia de Castilla-La Mancha
+                                                N.º 96, procedente del Recurso 715 de 2001 de Toledo, Sala de lo
+                                                Contencioso Administrativo, Sección 2ª de 13 de febrero de 2002.</p>
+                                            <p>Después de reconocer que estos dictámenes de equipos multidisciplinares
+                                                de los centros especializados en el diagnóstico de las capacidades de
+                                                los estudiantes tienen el mismo valor judicial que los dictámenes de los
+                                                Peritos Judiciales nombrados al efecto, en “FUNDAMENTOS DE DERECHO,
+                                                Cuarto, dedica al tema su apartado 6ª, en el establece:</p>
+                                            <p><i>La niña…………….., pertenece al tipo de niño sobredotado tipo
+                                                    “convergente”. Es decir, su edad mental converge con su madurez
+                                                    socioafectiva, a diferencia de los niños sobredotados “divergentes”,
+                                                    en los que la edad intelectual diverge de su madurez afectiva y
+                                                    social. En este último caso (niños sobredotados divergentes) la
+                                                    adecuación del curso a la estricta edad mental no resulta
+                                                    conveniente, por los desequilibrios que se podrían producir en el
+                                                    aspecto de la madurez socioafectiva. Sin embargo, en el caso de los
+                                                    niños sobredotados convergentes es posible una aceleración de más
+                                                    calado, pues la misma no supone ocasionar una divergencia o
+                                                    inadecuación acusada entre el nivel socioafectivo de los compañeros
+                                                    que le rodean en el nuevo curso y los de la menor, sino al
+                                                    contrario.” </i> </p>
+                                            <p><a href="https://confederacionceas.altascapacidades.es/juris/Castilla-La%20Mancha/Sentencia.htm  "
+                                                    target="_blank">Ver aquí</a> (en página 12)</p>
+                                            <p>La investigación científica de los años transcurridos permite establecer
+                                                la distinción entre los distintos tipos de Alta Capacidad de forma más
+                                                científica y precisa, en función del desarrollo asíncrono de los
+                                                circuitos neurogliales en sistemogénesis heterocrónica, y el grado de su
+                                                desarrollo en que cada niño de Alta Capacidad se halla. </p>
+                                            <p>Este Diagnóstico Diferencial forma parte de la Evaluación
+                                                Multidisciplinar o Diagnóstico Bio-psico-social o diagnóstico completo
+                                                que realizan los equipos multidisciplinares de los centros
+                                                especializados que realizan los equipos multidisciplinares de todos los
+                                                centros de diagnóstico especializados y homologados, de forma
+                                                sistemática, y el resultado viene expresado en el Dictamen, de manera
+                                                que esta medida actualmente carece de riesgo, pues su adecuación, o no,
+                                                que nada tiene que ver con una mera evaluación psicopedagógica, se
+                                                conoce, desde el mismo diagnóstico o Evaluación Multidisciplinar. </p>
+
+
+
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h6 class="m-3 ">
+                            EL TRATAMIENTO EDUCATIVO ESCOLAR
+                        </h6>
+
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item mb-3">
+                                <h2 class=" accordion-header m-3 mr-2" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive" aria-expanded="true"
+                                        aria-controls="collapseFive">
+                                        <strong>En la clase de nuestro hijo hay un niño que está
+                                            haciendo la Evaluación Multidisciplinar de sus
+                                            capacidades y necesidades, es decir, el diagnóstico
+                                            de Altas Capacidades. Pero, la maestra ha dicho que,
+                                            aunque salga de Altas Capacidades en este curso no
+                                            van a poder aplicarle los ajustes razonables, ya que
+                                            el colegio se halla en un proceso de transformación
+                                            en escuela bilingüe (castellano-inglés), por lo que
+                                            los docentes no están para otros reciclajes ¿Qué
+                                            dice la ley sobre el tema?</strong>
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body m-3">
+                                        <p>
+                                            El Tratado Internacional Convención de Naciones
+                                            Unidas regula esta obligación que tienen todos los
+                                            centros educativos en su Observación General o
+                                            Comentario General (CG-4) de 13 de septiembre de
+                                            2016, en sus párrafos 27 y 30
+                                        </p>
+                                        <p>
+                                            <strong>“30. La negación de los ajustes razonables
+                                                constituye un acto de discriminación y la
+                                                obligación de proporcionarlos es de aplicación
+                                                inmediata y no está sujeta a la implementación
+                                                progresiva”.</strong>
+                                        </p>
+
+                                        <p>
+                                            <a target="_blank" href="
+                          https://altascapacidades.es/portalEducacion/contenidos/noticia/Derecho-a-la-Educacion-Inclusiva-Art-24-Comentario-ONU-2016.pdf
+                          ">“27: El deber de proporcionar un ajuste razonable
+                                                es ejecutable desde el momento en el que es
+                                                demandado”.</a>
+                                        </p>
+
+                                        <p>
+                                            Ante la inmediatez que preceptúa la ley de superior
+                                            rango, El Defensor del Estudiante sugiere a los
+                                            padres que concedan al centro educativo un margen de
+                                            10 días desde que han presentado en el colegio el
+                                            dictamen de la Evaluación Multidisciplinar de las
+                                            capacidades y necesidades del estudiante o
+                                            diagnóstico bio-psico-social, con la correspondiente
+                                            instancia de solicitud, para que los docentes
+                                            dispongan de un margen razonable para elaborar el
+                                            diseño de la adaptación curricular, ajustes
+                                            metodológicos o apoyos personalizados, especialmente
+                                            en Secundaria donde intervienen varios profesores,
+                                            lo que requiere un trabajo en común bajo la
+                                            dirección del Director del centro educativo.
+                                        </p>
+                                        <p>
+                                            En el caso de que hayan transcurrido los diez días
+                                            desde la presentación en el centro educativo del
+                                            dictamen de la Evaluación Multidisciplinar o
+                                            diagnóstico bio-psico-social, con la correspondiente
+                                            instancia de solicitud y los docentes, y
+                                            específicamente el Tutor, no les hayan presentado a
+                                            los padres el borrador de la adaptación curricular o
+                                            ajustes metodológicos facultativamente
+                                            diagnosticados, los padres lo comunican a El
+                                            Defensor del Estudiante y sus Abogados inician de
+                                            inmediato las actuaciones tendentes a hacer cumplir
+                                            la ley. El Objetivo principal de El Defensor del
+                                            Estudiante se sintetiza en que en ningún momento
+                                            haya un solo niño o niña, en España, que habiendo
+                                            presentado en su centro educativo el dictamen de la
+                                            Evaluación Multidisciplinar de sus capacidades y
+                                            necesidades o Diagnóstico Bio-psico-social, no esté
+                                            recibiendo la educación con los ajustes razonables y
+                                            los apoyos personalizados que facultativamente le
+                                            hayan sido diagnosticados.
+                                        </p>
+
+                                        <p>
+                                            Los Jueces y Tribunales están aceptando acciones en
+                                            vía penal (Querellas Criminales), pues existe
+                                            soporte jurídico y científico suficiente que
+                                            justifica el grave daño que esta negligencia causa
+                                            en la mente de los niños y niñas con Altas
+                                            Capacidades. Todas las actuaciones que realiza
+                                            <a target="_blank" href=" https://www.defensorestudiante.org/  ">El Defensor
+                                                del Estudiante
+                                                son gratuitas.</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-3">
+                                <h2 class=" accordion-header m-3 mr-2" id="headingSix">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        <strong>La escuela de nuestro hijo se publicita como una
+                                            escuela de Educación Inclusiva. Hemos preguntado al
+                                            Director en qué se basan para publicitarla escuela
+                                            de esta manera, si todos los docentes de esta
+                                            escuela desconocen la metodología inclusiva. Nos ha
+                                            contestado que se basan en que en la admisión de los
+                                            alumnos admiten a todos: alumnos con toda clase de
+                                            discapacidades, alumnos con Superdotación, Altas
+                                            Capacidades etc., y siempre sin ninguna
+                                            discriminación y, ha venido a decir que con esto
+                                            piensan que ya es suficiente para considerar que es
+                                            una escuela de Educación Inclusiva. ¿Es correcto
+                                            este razonamiento?
+                                        </strong>
+                                    </button>
+                                </h2>
+                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body m-3">
+                                        <p>
+                                            Este razonamiento es erróneo, más que un
+                                            razonamiento es un sofisma: un engaño que conlleva
+                                            el desconocimiento de lo que en realidad es la
+                                            Educación Inclusiva. El Tratado Internacional
+                                            Convención de Naciones Unidas publica la definición
+                                            de educación Inclusiva en su
+                                            <a target="_blank" href=" https://altascapacidades.es/portalEducacion/contenidos/noticia/Derecho-a-la-Educacion-Inclusiva-Art-24-Comentario-ONU-2016.pdf  
+                          ">
+                                                Observación General o Comentario General (CG-4)</a>
+                                            de 13 de septiembre de 2016, a lo largo de sus 23
+                                            páginas y 73 Párrafos divididos en cinco capítulos.
+                                        </p>
+
+                                        Veamos cómo Naciones Unidas define este importante
+                                        aspecto en sus diferentes Párrafos:
+                                        <ul>
+                                            <li>
+                                                Párrafo 25:
+                                                <strong>“Reconoce que cada estudiante aprende de una
+                                                    manera única e implica desarrollar modos
+                                                    flexibles de aprender”.</strong>
+                                            </li>
+                                            <li>
+                                                Párrafo 12:
+                                                <strong>“El foco se sitúa en las capacidades de los
+                                                    estudiantes”. <br />
+                                                    “La inclusión asume un enfoque individualizado a
+                                                    los estudiantes”.</strong>
+                                            </li>
+                                            <li>
+                                                Párrafo 15:
+                                                <strong>“El derecho a la educación es un asunto de
+                                                    acceso y también de contenido”</strong>
+                                                .
+                                            </li>
+                                            <li>
+                                                Párrafo 28:
+                                                <strong>
+                                                    “El Comité reitera la distinción entre el deber
+                                                    de accesibilidad general y la obligación de
+                                                    proporcionar ajustes razonables. La
+                                                    accesibilidad beneficia a los grupos de
+                                                    poblaciones y está basada en un conjunto de
+                                                    estándares que son implementados gradualmente.
+                                                    La desproporcionalidad o la excesiva carga no
+                                                    han de ser excusa para defender el fracaso en la
+                                                    provisión de accesibilidad. El ajuste razonable
+                                                    se relaciona a un individuo y es complementario
+                                                    al derecho a la accesibilidad. Una persona puede
+                                                    demandar legítimamente medidas de ajuste
+                                                    razonable incluso si el estado parte ha cumplido
+                                                    su obligación de accesibilidad”.</strong>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item mb-3">
+                                <h2 class=" accordion-header m-3 mr-2" id="headingthirteen">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapsethirteen" aria-expanded="false"
+                                        aria-controls="collapsethirteen">
+                                        <strong>El Director de la escuela nuestro hijo ha dicho que
+                                            no pueden ofrecer la educación inclusiva con los
+                                            ajustes razonables y apoyos personalizados que
+                                            preceptúa el Tratado Internacional Convención de
+                                            Naciones Unidas en su Artículo 24, a causa de la
+                                            falta de recursos y de la crisis financiera ¿Qué
+                                            dice la ley en este tema?</strong>
+                                    </button>
+                                </h2>
+                                <div id="collapsethirteen" class="accordion-collapse collapse"
+                                    aria-labelledby="headingthirteen" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body m-3">
+                                        El Tratado Internacional Convención de Naciones Unidas
+                                        regula este tema en todos los centros educativos
+                                        públicos, concertados o privados, en su Observación
+                                        General o Comentario General (CG-4) de 13 de
+                                        septiembre de 2016, en su
+                                        <a target="_blank"
+                                            href="  https://altascapacidades.es/portalEducacion/contenidos/noticia/Derecho-a-la-Educacion-Inclusiva-Art-24-Comentario-ONU-2016.pdf">párrafo
+                                            27,</a>
+                                        donde establece con claridad: <br /><br />
+                                        <strong>“27: Escudarse en la falta de recursos y en la
+                                            crisis financiera como una justificación para el
+                                            fracaso del progreso hacia la educación inclusiva
+                                            viola el artículo 24”.</strong>
+                                        <br /><br />
+                                        Un centro educativo que por cualquier causa no pudiera
+                                        ofrecer a sus estudiantes la preceptiva Educación
+                                        Inclusiva o personalizada, debería cerrar, pues no es
+                                        posible educar burlando un derecho humano fundamental
+                                        de todos los estudiantes.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h6 class="m-3 ">
+                            EL TRATAMIENTO EDUCATIVO EXTRAESCOLAR
+                        </h6>
+
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item mb-3">
+                                <h2 class=" accordion-header m-3 mr-2" id="headingSeven">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSeven" aria-expanded="true"
+                                        aria-controls="collapseSeven">
+                                        <strong>Nuestro hijo está haciendo el diagnóstico de sus
+                                            capacidades y necesidades. Unos amigos que
+                                            pertenecen a una asociación de padres de niños con
+                                            Altas Capacidades nos dicen que tendremos que
+                                            pertenecer a su asociación y que nuestro hijo tendrá
+                                            que participar en sus actividades de fin de semana y
+                                            vacaciones. ¿Científicamente está probado que por el
+                                            hecho de tener Altas Capacidades existe la necesidad
+                                            de asistir y participar en este tipo de
+                                            actividades?</strong>
+                                    </button>
+                                </h2>
+                                <div id="collapseSeven" class="accordion-collapse collapse"
+                                    aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body m-3">
+                                        Carl Young, discípulo de Freud, ya en 1947 dijo:
+                                        <br /><br />
+
+                                        <strong>
+                                            “Los niños y las niñas superdotadas son el fruto más
+                                            hermoso del árbol de la humanidad, pero a la vez son
+                                            los que corren más grande peligro, pues cuelgan de
+                                            sus ramas más frágiles y con frecuencia se rompen”. </strong><br /><br />
+                                        El Neuropediatra Dr. Adrián García Ron del Hospital
+                                        Clínico y Universitario San Carlos de Madrid, señala:
+                                        <p>
+                                            <strong>
+                                                «Los niños con alta capacidad intelectual deben
+                                                considerarse como un grupo de riesgo
+                                                neuropsicológico, pues su identificación y
+                                                establecimiento de las medidas psicoeducativas
+                                                apropiadas de manera temprana es clave para
+                                                anticiparse y evitar posibles problemas en el
+                                                ámbito personal, social y académico». <br />
+
+                                                Los niños superdotados tienen derecho a un ajuste
+                                                educativo mediante adaptación curricular que cubra
+                                                sus necesidades, el rendimiento académico y su
+                                                estado socioemocional».</strong>
+                                        </p>
+
+                                        <p>
+                                            En la actualidad se conoce cuál es la causa que
+                                            produce en los niños y las niñas con Altas
+                                            Capacidades estos frecuentes rompimientos psíquicos,
+                                            mediante un desarrollo disarmómico de los circuitos
+                                            neurogliales en sistomogénesis heterocrónica. Es el
+                                            llamado Síndrome de la Disincronía. Y, al conocerse
+                                            la causa permite deducir su tratamiento.
+                                        </p>
+                                        <p>
+                                            Por su parte, el catedrático de Psicopedagogía de la
+                                            Educación de la Universidad Autónoma de Barcelona
+                                            Dr. Cándido Genovard, pionero de la investigación
+                                            científica específica en España, en su obra
+                                            “Psicopedagogía de la Superdotación”, en relación al
+                                            Síndrome de la Disincronía de estos alumnos, señala:
+                                        </p>
+
+                                        <p>
+                                            <strong>“Es necesario referenciar una de las fuentes de
+                                                conflictos principales -incluso de patologías- en
+                                                los alumnos de altas capacidades: la Disincronía.
+                                            </strong>
+                                        </p>
+
+                                        <p>
+                                            En efecto, para una gran parte de estos alumnos, a
+                                            la situación de inadecuación académica se añaden
+                                            conflictos de pequeños desajustes personales o
+                                            sociales. Estos conflictos son de especial
+                                            importancia, ya que incidirán en la motivación, la
+                                            autoestima y la actitud general de estas personas.
+                                        </p>
+
+                                        <p>
+                                            Justamente estas variables tienen una marcada
+                                            relevancia en la concreción del potencial
+                                            intelectual en rendimiento. Una de las situaciones
+                                            en que se muestra de manera más dramática la
+                                            situación disincrónica es en el contexto escolar,
+                                            donde se manifiesta claramente el contraste entre el
+                                            ritmo estándar de la situación de
+                                            enseñanza-aprendizaje global dentro del curso y el
+                                            ritmo de instrucción del alumno superdotado,
+                                            cuantitativamente y cualitativamente más rápido que
+                                            los otros.
+                                        </p>
+
+                                        Algunas de las cosas que contribuyen a la disincronía
+                                        escolar son las siguientes:
+
+                                        <ol>
+                                            <li>
+                                                La represión de la facilidad, la represión de la
+                                                rapidez y la represión de la precocidad de los
+                                                alumnos superdotados;
+                                            </li>
+                                            <li>Infraestimulación de la instrucción;</li>
+                                            <li>Las normas escolares inadecuadas;</li>
+                                            <li>La diferente edad escolar;</li>
+                                            <li>
+                                                La estandarización del grupo de instrucción;
+                                            </li>
+                                            <li>
+                                                La disminución progresiva de exigencia del nivel
+                                                del currículum;
+                                            </li>
+                                            <li>Las políticas educativas igualitarias.</li>
+                                        </ol>
+                                        <p>
+                                            El profesor que ignora la capacidad intelectual real
+                                            de su alumno superdotado espera de él un rendimiento
+                                            escolar normal y le empuja a una evolución
+                                            disincrónica con sus posibilidades.
+                                        </p>
+
+                                        <p>
+                                            Naturalmente, a esto contribuye el sistema
+                                            educativo, en tanto que obliga a los alumnos
+                                            superdotados a adaptarse a las expectativas del
+                                            sistema y a adaptar al sistema tantos alumnos como
+                                            se pueda”.
+                                        </p>
+                                        <p>
+                                            Observemos que todas las causas se hallan en el
+                                            ámbito escolar, por lo que su prevención y su
+                                            tratamiento se halla también en el ámbito escolar,
+                                            concretamente en la necesidad del cambio
+                                            metodológico que estos niños y niñas necesitan. El
+                                            Jefe de Neurología Pediátrica del Hospital Clínico
+                                            Universitario San Carlos de Madrid, Dr. Jaime Campos
+                                            Castelló, señaló.
+                                        </p>
+
+                                        <p>
+                                            <strong>
+                                                “Los niños de Altas Capacidades necesitan un
+                                                cambio metodológico en la escuela, de lo contrario
+                                                se deterioran cognitivamente”.
+                                            </strong>
+                                        </p>
+
+                                        <p>
+                                            El Dr. Javier Tourón, Catedrático de Ciencias de la
+                                            Educación y en Ciencias Biológicas de la Universidad
+                                            de Navarra, Ex-presidente del European Council for
+                                            High Ability comenzaba su artículo científico:
+                                            “Identificación y Diagnóstico de los alumnos de Alta
+                                            Capacidad”, Revista Bordón, de la Sociedad Española
+                                            de Pedagogía, Monográfico: “Atención a la
+                                            diversidad: Educación de los alumnos más capaces”,
+                                            año 2002, señalando:
+                                        </p>
+
+                                        <p>
+                                            <strong>“Si la escuela fuese verdaderamente adaptativa o
+                                                inclusiva, la Alta Capacidad no sería un problema
+                                                educativo, y las páginas que siguen tendrían poca
+                                                justificación”.</strong>
+                                        </p>
+                                        <p>
+                                            No existe estudio científico alguno que considere
+                                            que los frecuentes rompimientos psíquicos de los
+                                            niños y niñas con Altas Capacidades puedan
+                                            prevenirse o superarse mediante actividades
+                                            extraescolares. Tampoco existe hipótesis científica
+                                            alguna que lo defienda. La totalidad de estudios
+                                            científicos concluyen señalando que es en el ámbito
+                                            escolar y en sus políticas educativas igualitarias
+                                            donde se halla la causa. Y, su prevención y
+                                            tratamiento se halla en la necesidad del cambio
+                                            metodológico a la preceptiva Educación Inclusiva o
+                                            personalizada.
+                                        </p>
+
+                                        <p>
+                                            El cambio metodológico a la Educación Inclusiva o
+                                            personalizada era una ilusión de futuro y una
+                                            esperanza, pero a partir de 2008 que en el Estado
+                                            Español entra en vigor el Tratado Internacional
+                                            Convención de Naciones Unidas, la educación
+                                            Inclusiva o personalizada pasa a ser un derecho
+                                            humano fundamental de todos los estudiantes.
+                                        </p>
+
+                                        <p>
+                                            Pero surgen resistencias al cambio metodológico, es
+                                            decir, resistencias al cumplimiento de la ley, pues
+                                            requiere una mayor dedicación a los docentes y su
+                                            reciclaje profesional, Ante a estas resistencias hay
+                                            padres que no solicitan la educación Inclusiva o
+                                            personalizada que sus hijos necesitan y a la que la
+                                            ley les reconoce su derecho. Algunos padres, en su
+                                            lugar, crean estas asociaciones de padres, que la
+                                            Confederación Española de Asociaciones de Altas
+                                            Capacidades no reconoce, que en su lugar ofrecen
+                                            esas actividades extraescolares.
+                                        </p>
+
+                                        <p>
+                                            Hay que señalar que estas actividades extraescolares
+                                            carecen de finalidad y de sentido en relación con
+                                            las verdaderas necesidades de las niñas y niños con
+                                            Altas Capacidades, que siguen rompiéndose en las
+                                            aulas.
+                                        </p>
+
+                                        <p>
+                                            En la Comunidad de Madrid, y en ciertos momentos en
+                                            Canarias, la misma Consejería de Educación organiza
+                                            estas actividades extraescolares para los niños con
+                                            Altas Capacidades, los sábados. De esta manera, los
+                                            políticos y funcionarios de la educación evitan que
+                                            los docentes tengan que molestarse en ofrecer a
+                                            estos niños el cambio metodológico que necesitan,
+                                            pues estas actividades extraescolares son útiles
+                                            para que los padres queden contentos y no se atrevan
+                                            a pedir los ajustes metodológicos y los apoyos
+                                            personalizados que la ley preceptúa y sus hijos
+                                            necesitan.
+                                        </p>
+
+                                        <p>
+                                            Quien utiliza estas actividades extraescolares de
+                                            forma científicamente adecuada son los equipos
+                                            multidisciplinares de los centros especializados en
+                                            el diagnóstico de las capacidades de los
+                                            estudiantes, pues actúan de la siguiente manera:
+                                        </p>
+                                        <p>
+                                            1. Cuando han diagnosticado un cierto número de
+                                            niños con Altas Capacidades convocan a una reunión a
+                                            todos sus padres y les proponen la creación de una
+                                            asociación. Los profesionales ofrecen su
+                                            asesoramiento científico a la nueva asociación
+                                            garantizando que en todo momento se orientará en los
+                                            principios de la investigación científica
+                                            internacional.
+                                        </p>
+
+                                        <p>
+                                            2. En sus dictámenes vinculantes el equipo
+                                            multidisciplinar de profesionales hace constar con
+                                            detalle, y como prescripción facultativa, los
+                                            ajustes metodológicos, los apoyos personalizados o
+                                            adaptación curricular metodológica que el niño
+                                            necesita.
+                                        </p>
+                                        <p>
+                                            3. Al mismo tiempo cuando un niño o niña de Alta
+                                            Capacidad su diagnóstico ha puesto de manifiesto que
+                                            necesita realizar actividades extraescolares, el
+                                            equipo multidisciplinar hace constar en el dictamen
+                                            de la Evaluación Multidisciplinar de sus capacidades
+                                            y necesidades que el niño además del tratamiento
+                                            educativo escolar necesita realizar determinadas
+                                            actividades extraescolares, señalando
+                                            facultativamente los aspectos concretos que necesita
+                                            que se trabajen. Para ello, se deriva a esta familia
+                                            a la asociación y al seguimiento que deberá realizar
+                                            hasta alcanzar los objetivos previstos para esta
+                                            actividad extraescolar.
+                                        </p>
+
+                                        <p>
+                                            4. En todos los casos, en primer lugar, se pone en
+                                            marcha la respuesta educativa escolar, es decir se
+                                            resuelve la necesidad educativa más importante y
+                                            urgente, hasta alcanzar el cambio metodológico que
+                                            el niño necesita y se le ha diagnosticado. Llegados
+                                            a este punto el niño experimenta un gran cambio en
+                                            un sentido muy amplio. Es el momento apropiado para
+                                            diagnosticar la necesidad, o no, de actividad
+                                            extraescolar. Es muy frecuente observar entonces que
+                                            tal necesidad ya no existe.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <h6 class="m-3 ">LAS LEYES DE APLICACIÓN</h6>
+
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item mb-3">
+                            <h2 class=" accordion-header m-3 mr-2" id="headingEight">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+                                    <strong>He leído en varios sitios que la Organización
+                                        Mundial de la Salud (OMS), en un momento determinado
+                                        llegó a definir la Superdotación ligada al Cociente
+                                        Intelectual y al Cociente 130, como punto de corte,
+                                        pero he estado buscando e investigando esta
+                                        Resolución, pero no he podido hallarla ¿Es verdad
+                                        que existe esta definición en resolución de la
+                                        OMS?</strong>
+                                </button>
+                            </h2>
+                            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body m-3">
+                                    <p>
+                                        Es cierto que se dice y se repite hasta la saciedad
+                                        que la Organización Mundial de la Salud definió la
+                                        Superdotación como las personas que tienen un
+                                        Cociente Intelectual igual o superior a 130. Pero es
+                                        <strong>falso que la OMS haya publicado tal
+                                            resolución</strong>
+                                        . Es una de las falsedades que se intenta hacer
+                                        creer al conjunto de la sociedad por intereses
+                                        espurios, y que se repite hasta la saciedad en la
+                                        pretensión de que estas falsedades pasen a
+                                        considerarse verdades.
+                                    </p>
+                                    <p>
+                                        En su investigación usted no ha encontrado esta
+                                        Resolución de la OMS, simplemente porque jamás ha
+                                        existido. La única Resolución que la Organización
+                                        Mundial de la Salud ha aprobado para la
+                                        identificación de la Superdotación, las Altas
+                                        Capacidades y demás especificidades de la
+                                        inteligencia humana, en su multidimensionalidad, es
+                                        la CIF, como instrumento para la identificación:
+                                        Evaluación Multidisciplinar o diagnóstico caso por
+                                        caso, que fue aprobada por la OMS mediante
+                                        Resolución WHA54.21 de 22 de mayo 2001. La CIF en su
+                                        n su Capítulo 2.1 titulado: “Aplicaciones de la
+                                        CIF”, señala:
+                                    </p>
+
+                                    <strong>- Como herramienta clínica – en la valoración de
+                                        necesidades, para homogeneizar tratamientos...
+                                        <br />
+
+                                        - Como herramienta educativa - para diseño del
+                                        "currículum".
+                                    </strong>
+
+                                    <p>
+                                        Aún en el supuesto de que, en el pasado, cuando se
+                                        creía que la Superdotación o las Altas Capacidades
+                                        era cuestión de alcanzar un dato psicométrico
+                                        (Cociente Intelectual o percentil), es fundamental
+                                        seguir el curso de la investigación científica
+                                        internacional, pues también en el pasado había
+                                        personas prestigiosas que afirmaban que la Tierra
+                                        era plana, que se hallaba en el centro del universo,
+                                        y que era el Sol el que daba vueltas a la tierra.
+                                    </p>
+
+                                    <p>
+                                        En 1998 el Departamento de Educación de la
+                                        Generalitat de Cataluña publicó el libro “Alumnado
+                                        excepcionalmente dotado intelectualmente”,
+                                        encargado, a científicos de primera línea: el Dr.
+                                        Antoni Castelló de la Universidad Autónoma de
+                                        Barcelona y la Dra. Mercè Martínez de la Universidad
+                                        de Barcelona. Contiene, desarrolla y difunde la cita
+                                        del pionero en la investigación científica
+                                        específica en España, el Catedrático de Psicología
+                                        de la Universidad Autónoma de Barcelona Dr. Cándido
+                                        Genovard, de 1990:
+                                    </p>
+
+                                    <strong>“Aquella consideración tradicional que evaluaba la
+                                        capacidad intelectual sólo a partir del Cociente
+                                        intelectual Q.I. (un cociente intelectual superior a
+                                        130) está actualmente obsoleta, ya que las actuales
+                                        teorías cognitivistas sobre la inteligencia
+                                        sustituyeron este índice por organizaciones más
+                                        ricas y complejas de estructuras y funciones de las
+                                        capacidades cognitivas”</strong>
+
+                                    <p>
+                                        El Catedrático de Ciencias de la Educación ex
+                                        presidente del European Council for High Abiliti Dr.
+                                        Javier Tourón, en un congreso sobre Altas
+                                        Capacidades en la Universidad de Málaga el 4 de
+                                        octubre de 2016 interrumpió la presentación de un
+                                        nuevo tests de inteligencia de la psicóloga Yolanda
+                                        Benito, para señalar: «En la actualidad no es
+                                        posible encontrar, en la investigación científica
+                                        internacional, a un solo autor mínimamente relevante
+                                        que admita el Cociente Intelectual, ni encontrar a
+                                        nadie que admita ningún punto de corte como medida
+                                        para determinar quién es o quien no es superdotado.
+                                    </p>
+
+                                    <p>
+                                        El mayor favor que podemos hacer a los niños, a las
+                                        familias y a las escuelas es olvidarnos de los
+                                        puntos de corte y olvidarnos de las clasificaciones
+                                        de las Administraciones Educativas. Evaluemos las
+                                        capacidades que cada uno tiene y planifiquemos una
+                                        intervención educativa acorde a esta capacidad. Todo
+                                        lo demás es marear la perdiz, porque mientras tanto
+                                        el talento de los niños no se desarrolla, muchos
+                                        fracasan y acaban donde todos sabemos». (<a target="_blank"
+                                            href="https://www.youtube.com/watch?v=AZTdyLx7gAg   ">https://www.youtube.com/watch?v=AZTdyLx7gAg
+                                        </a>
+                                        la intervención del Dr. Tourón se encuentra desde el
+                                        minuto 43:50 al 46).
+                                    </p>
+                                    <p>
+                                        Es cierto que en la actualidad hay Consejerías de
+                                        Educación de comunidades autónomas que conservan las
+                                        obsoletas definiciones en sus normativas, y sus
+                                        funcionarios las aplican, incluso las imponen a los
+                                        padres, lo que siempre resulta muy dañino para los
+                                        niños y quiebra el derecho de los padres a la
+                                        seguridad jurídica. Aquí hay que tener en cuenta que
+                                        cuando una normativa o ley inferior contradice a la
+                                        ley de superior rango, la normativa inferior carece
+                                        de validez. Así lo preceptúa el Código Civil en su
+                                        Artículo 1.2: “Carecerán de validez las
+                                        disposiciones que contradigan otra de rango
+                                        superior”.
+                                    </p>
+                                    <p>
+                                        La ley de rango superior que regula la evaluación de
+                                        las capacidades y necesidades de los estudiantes es
+                                        la Convención de Naciones Unidas, BOE de 21 de abril
+                                        de 2008, que es un Tratado Internacional aprobado
+                                        por las Cortes Generales del España, firmado por el
+                                        Jefe del Estado y publicado en el BOE, por lo que es
+                                        de aplicación directa.
+                                    </p>
+                                    <p>
+                                        Por otra parte, la Ley 25/2014, de 27 de noviembre
+                                        de Tratados Internacionales que regula la aplicación
+                                        en España de los Tratados Internacionales su
+                                        Artículo 31, establece:
+                                    </p>
+                                    <p>
+                                        <strong>“Las normas jurídicas contenidas en los tratados
+                                            internacionales válidamente celebrados y
+                                            publicados oficialmente prevalecerán sobre
+                                            cualquier otra norma del ordenamiento interno en
+                                            caso de conflicto con ellas”.</strong>
+                                    </p>
+
+                                    <p>
+                                        Y, su artículo 39, “Ejecución” establece:
+                                        <strong>“Los tratados internacionales serán de aplicación
+                                            directa”.</strong>
+                                    </p>
+
+                                    <p>
+                                        En Derecho Internacional está la Convención de
+                                        Viena. Es otro tratado Internacional, que también el
+                                        Estado Español ha suscrito, que regula la aplicación
+                                        de todos los Tratados Internacionales que los
+                                        estados ratifican. Su Artículo 27, que se titula:
+                                        “El derecho interno y la observancia de los
+                                        tratados”, y preceptúa: <br />
+                                    </p>
+
+                                    <strong>
+                                        “Una parte no podrá invocar las disposiciones de su
+                                        derecho interno como justificación del
+                                        incumplimiento de un tratado”.</strong>
+
+                                    <p>
+                                        Los padres tienen derecho a tener “seguridad
+                                        jurídica”. Es un derecho que les reconoce la
+                                        Constitución en su Artículo 9.3. Para ello, deben
+                                        acogerse a la ley de superior rango que determina la
+                                        metodología de los centros educativos y la
+                                        Evaluación Multidisciplinar de las capacidades y
+                                        necesidades de los estudiantes, que es el Tratado
+                                        Internacional Convención de Naciones Unidas BOE de
+                                        21 de abril de 2008, y aplicar el desarrollo de esta
+                                        ley superior.
+                                    </p>
+                                    <p>
+                                        Cuando los padres han obtenido la Evaluación
+                                        Multidisciplinar de las capacidades y necesidades de
+                                        su hijo, llevan el Dictamen a la dirección del
+                                        centro educativo. Entonces, ningún funcionario, bien
+                                        sea docente, orientador o inspector, puede
+                                        contradecir lo que establece el Dictamen, que es la
+                                        aplicación directa de un Tratado Internacional, no
+                                        sólo porque así lo establece la Ley (Ley 25/2014, de
+                                        27 de noviembre, Artículo 30 y 31), pues ese
+                                        Dictamen es la aplicación práctica de un Tratado
+                                        internacional que, como hemos visto, prevalece sobre
+                                        todas las normas internas de las comunidades
+                                        autónomas, sino también porque, como hemos visto, en
+                                        virtud de lo dispuesto en la Convención de Viena,
+                                        Artículo 27,
+                                        <strong>los padres no tienen que consentir que nadie se
+                                            oponga a la aplicación de un Tratado Internacional
+                                            invocando disposiciones internas (normalmente
+                                            autonómicas), que al contradecir la ley superior
+                                            carecen de validez.</strong>
+                                    </p>
+                                    <p>
+                                        <strong>Cuando un orientador obliga a los padres o les
+                                            insiste a que le firmen el impreso que tienen
+                                            preparado por el que autorizarían al orientador a
+                                            realizar la evaluación psicopedagógica a su hijo,
+                                            basada en el Cociente Intelectual u otro dato
+                                            psicométrico, este orientador incurre, entre
+                                            otros, en un delito de intrusismo tipificado en el
+                                            Código Civil, Artículo 403
+                                        </strong>
+                                        (Ver Artículo
+                                        <a target="_blank"
+                                            href="https://www.altascapacidadescse.org/QUIENPUEDE.pdf">“Quién puede
+                                            diagnosticar” </a>del
+                                        Letrado D. José Antonio Latorre Cirera en La
+                                        Vanguardia 8 de enero de 2006. Ver también el
+                                        <a target="_blank"
+                                            href=" https://www.altascapacidadescse.org/cse/consultorio/ ">Consultorio
+                                            Jurídico de las
+                                            Altas Capacidades del
+                                            Abogado del Estado y Eurodiputado </a>representante de España ante el
+                                        Consejo de Europa
+                                        D. Jorge Buxadé en sus respuestas a las preguntas nº
+                                        3 y 17) <br />
+                                        Además el orientador incurriría en un delito de
+                                        Coacciones Tipificado en el Código Penal Artículo
+                                        172. (Ver el artículo:
+                                        <a target="_blank"
+                                            href=" http://www.infantojuvenil.eu/sepij/archivos/pdfs/LEYES_EDUCATIVAS_NULAS.pdf">“LAS
+                                            LEYES EDUCATIVAS NULAS QUEIMPONEN A LOS
+                                            PADRES”</a>
+
+                                        del Dr Juan Luis Miranda Romero, Médico Psiquiatra y
+                                        Perito Judicial. Ver también
+                                        <a target="_blank" href=" https://defensorestudiante.org/PDF/DJME.pdf ">DICTAMEN
+                                            JURÍDICO DEL
+                                            MODELO EDUCATIVO
+                                        </a>
+
+                                        ).
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class=" accordion-header m-3 mr-2" id="headingNine">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
+                                    <strong>¿La Educación Inclusiva o personalizada es un
+                                        derecho solo de los estudiantes que tienen una
+                                        discapacidad y que de alguna forma puede
+                                        interpretarse que también puede aplicarse a los
+                                        niños con Altas Capacidades?</strong>
+                                </button>
+                            </h2>
+                            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body m-3">
+                                    <p>
+                                        El Tratado Internacional Convención de Naciones
+                                        Unidas, BOE de 21 de abril de 2008, define la
+                                        Educación Inclusiva en su Observación General o
+                                        Comentario General (CG-4) de 13 de septiembre de
+                                        2016, concretamente en su Párrafo 10 que lleva por
+                                        título: “La inclusión educativa debe entenderse
+                                        como:
+                                    </p>
+                                    Y, comienza su
+                                    <a target="_blank"
+                                        href=" https://altascapacidades.es/portalEducacion/contenidos/noticia/Derecho-a-la-Educacion-Inclusiva-Art-24-Comentario-ONU-2016.pdf">apartado
+                                        a)</a>
+                                    señalando: <br />
+                                    <strong>“Un derecho humano fundamental de todos los
+                                        estudiantes”.</strong>
+
+                                    <p>
+                                        Puede también observarse que a lo largo de los 23
+                                        folios que se compone este Informe vinculante de
+                                        Naciones Unidas la expresión “todos los estudiantes”
+                                        es una constante. Tanto es así que para evitar tanta
+                                        repetición a veces utiliza otra expresión
+                                        equivalente, como: “Los estudiantes con o sin
+                                        discapacidad”.
+                                    </p>
+                                    <p>
+                                        Debemos tener en cuenta que dicho Tratado
+                                        Internacional de Naciones Unidas lo es de aplicación
+                                        y desarrollo de la Declaración Universal de Derechos
+                                        Humanos, que no permite discriminación de ningún
+                                        tipo, tampoco permite la discriminación positiva en
+                                        la que se incurriría caso de reconocer un derecho a
+                                        los estudiantes de un colectivo si al mismo tiempo
+                                        no se reconociera a los de otro colectivo. Es por
+                                        tanto la Educación Inclusiva un derecho humano
+                                        fundamental de todos los estudiantes, como no podría
+                                        ser de otra forma.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class=" accordion-header m-3 mr-2" id="headingTen">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
+                                    <strong>Cuando un Estado acuerda ratificar o aceptar un
+                                        Tratado Internacional se obliga a adaptar todas sus
+                                        leyes internas a lo que preceptúa la nueva ley
+                                        superior, que pasa a formar parte del ordenamiento
+                                        jurídico superior del Estado. De esta manera las
+                                        leyes internas continúan teniendo validez.
+                                        <br /><br />
+
+                                        En el caso del Tratado Internacional Convención de
+                                        Naciones Unidas, esta obligación también se hace
+                                        constar expresamente en su Artículo 4, además
+                                        señalando la obligación de modificar para adaptar
+                                        las leyes internas, la posibilidad de derogar
+                                        aquellas leyes internas cuya adaptación presente
+                                        dificultad, y ello no sólo respecto de las leyes
+                                        internas, sino que esta obligación legal se hace
+                                        extensible a todas las “leyes, reglamentos,
+                                        costumbre y prácticas”. <br /><br />
+
+                                        Con los años transcurridos desde 2008, en que entró
+                                        en vigor el Tratado Internacional, cabe preguntarse:
+                                        ¿El Estado Español y sus Comunidades Autónomas han
+                                        cumplido esta obligación legal? ¿Nuestras leyes
+                                        educativas internas han efectuado la obligada
+                                        adaptación a la nueva ley de rango superior
+                                        conservando así si validez?
+                                    </strong>
+                                </button>
+                            </h2>
+                            <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body m-3">
+                                    <p>
+                                        Resulta sencillo observar que las órdenes y demás
+                                        normativas, costumbres y prácticas de las
+                                        comunidades autónomas respecto de la evaluación de
+                                        las capacidades y de las necesidades de los
+                                        estudiantes y respecto de la metodología de los
+                                        centros educativos, resultan contradictorias
+                                        respecto de los derechos que reconoce el Tratado
+                                        Internacional Convención de Naciones Unidas.
+                                    </p>
+                                    <p>
+                                        El Estado Español ha cumplido su obligación de
+                                        adaptar todas las leyes sanitarias internas al
+                                        Tratado Internacional Convención de Naciones Unidas.
+                                        También ha cumplido su obligación modificando y
+                                        adaptando las leyes que regulan los derechos
+                                        sociales, casi en su totalidad. Pero,
+                                        <strong>respecto de las leyes educativas, tanto estatales
+                                            como las leyes educativas de las comunidades
+                                            autónomas no se ha realizado.</strong>
+                                        <br />
+                                        También hay que decir que las nuevas leyes
+                                        educativas autonómicas, estatales y autonómicas que
+                                        se han creado con posterioridad a la entrada en
+                                        vigor del Tratado Internacional, apenas se han
+                                        adaptado a la ley de superior rango, por lo que
+                                        permanecen las contradicciones.
+                                    </p>
+                                    <p>
+                                        En definitiva,
+                                        <strong>España y sus comunidades autónomas carecen leyes
+                                            internas válidas acerca de la evaluación de las
+                                            capacidades y necesidades de los estudiantes y
+                                            sobre la metodología de los centros
+                                            educativos,</strong>
+                                        pues las que se han publicado se hallan en abierta
+                                        contradicción con la ley de rango superior.
+                                    </p>
+                                    <p>
+                                        Cuando unos padres desarrollan un derecho contenido
+                                        en el Tratado Internacional Convención de Naciones
+                                        Unidas suele aparecer un funcionario que presenta
+                                        objeción, basándose en normativa autonómica que se
+                                        halla en contradicción. Ello constituye una clara
+                                        evidencia de esta contradicción, que en nuestro
+                                        estado de derecho de jerarquía normativa (CE Art.
+                                        9.3) no tiene cabida.
+                                    </p>
+
+                                    <p>
+                                        Esta situación no supone un vacío legal, ya que, por
+                                        una parte, el Tratado Internacional de Naciones
+                                        Unidas es de aplicación directa, es decir, para su
+                                        aplicación y desarrollo no necesita que se elabore
+                                        legislación interna.
+                                    </p>
+                                    <p>
+                                        Por otra parte, Naciones Unidas se ha dado cuenta de
+                                        que algunos estados, entre ellos España, no cumplen
+                                        su obligación de adaptar sus leyes educativas
+                                        internas, razón por la cual Naciones Unidas ha
+                                        elaborado Informes de obligado cumplimiento que
+                                        facilitan a los buenos docentes la implementación,
+                                        en sus centros educativos, de la Educación Inclusiva
+                                        o personalizada que preceptúa la ley de superior
+                                        rango. Algunos de estos Informes Vinculantes de
+                                        Naciones Unidas son:
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <a target="_blank"
+                                                href="https://altascapacidades.es/portalEducacion/contenidos/noticia/Derecho-a-la-Educacion-Inclusiva-Art-24-Comentario-ONU-2016.pdf ">La
+                                                Observación General o Comentario General
+                                                (CG-4)
+                                            </a>
+                                            de 13 de septiembre de 2016
+                                        </li>
+                                        <li>
+                                            <a target="_blank"
+                                                href="https://altascapacidades.es/portalEducacion/html/otrosmedios/informe-ONU.pdf ">El
+                                                Informe de Naciones Unidas
+                                            </a>
+                                            de 4 de junio de 2017, consecuencia de la denuncia
+                                            que presentó la Asociación de Padres SOLCÓM ante
+                                            el Secretario General de Naciones Unidas, contra
+                                            el Estado Español, por incumplimientos del Tratado
+                                            Internacional Convención de Naciones Unidas. La
+                                            Comisión nombrada al efecto por Naciones Unidas
+                                            recorrió las comunidades autónomas del Estado
+                                            Español y comprobó la veracidad y exactitud de los
+                                            hechos denunciados
+                                        </li>
+                                        <li>
+                                            <a target="_blank"
+                                                href="https://altascapacidades.es/portalEducacion/html/otrosmedios/informe-ONU.pdf ">El
+                                                Informe de Naciones Unidas
+                                            </a>
+                                            de 18 de septiembre de 2020, consecuencia de la
+                                            denuncia que tuvo que interponer el padre de Rubén
+                                            (niño con Síndrome de Down escolarizado en un
+                                            instituto público de León), al que el sistema
+                                            educativo quería escolarizar en un centro de
+                                            educación especial, en contra de la voluntad de
+                                            los padres y del niño y que los tribunales de
+                                            justicia, en este caso, no fueron capaces de hacer
+                                            Justicia.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class=" accordion-header m-3 mr-2" id="headingEleven">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseEleven" aria-expanded="true"
+                                    aria-controls="collapseEleven">
+                                    <strong>Las contradicciones que existen entre las
+                                        normativas de las comunidades autónomas y el Tratado
+                                        Internacional Convención de Naciones Unidas como ley
+                                        de rango superior que regula la evaluación de las
+                                        capacidades y necesidades de los estudiantes y la
+                                        metodología de los centros educativos, son muy
+                                        evidentes. Pero ¿Hasta qué punto la Ley Orgánica de
+                                        Educación reconoce la preceptiva Educación Inclusiva
+                                        como derecho un humano fundamental de todos los
+                                        estudiantes como establece la ley de rango superior?
+                                    </strong>
+                                </button>
+                            </h2>
+                            <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body m-3">
+                                    <p>
+                                        La Ley Orgánica de Educación 8/2013, de 9 de
+                                        diciembre LOMCE hacía una breve referencia a la
+                                        educacinclusiva en su preámbulo, apartado V, para
+                                        decir: <br />
+                                        <strong>“Debemos pues considerar como un logro de las
+                                            últimas décadas la universalización de la
+                                            educación, así como la educación
+                                            inclusiva”.</strong>
+                                    </p>
+                                    <p>
+                                        Despachaba así tan importante tema como si se
+                                        tratara de un logro ya alcanzado. Efectivamente, la
+                                        educación inclusiva en el 2013 era ya un logro en el
+                                        ámbito legal, pues desde 2008 estaba preceptuada en
+                                        el Tratado Internacional Convención de Naciones
+                                        Unidas, nuestra ley de superior rango, pero en
+                                        relación a la realidad práctica de nuestras
+                                        escuelas, existía un abismo.
+                                    </p>
+                                    <p>
+                                        La educación inclusiva en la Ley Orgánica 3/2020, de
+                                        29 de diciembre, LOMLOE, en su artículo 4.3,
+                                        referido a la metodología de la enseñanza básica
+                                        obligatoria, se garantizan los principios del Diseño
+                                        Universal de Aprendizaje y los Derechos de la
+                                        Infancia, facilitando los apoyos que el alumnado
+                                        requiera; pero, sin embargo,
+                                        <strong>no establece la educación inclusiva como derecho
+                                            humano fundamental de todos los estudiantes, tal y
+                                            como ya se ha reconocido por la Convención de
+                                            Naciones Unidas.</strong>
+                                        Por el contrario, solo se le otorga la mera
+                                        categoría de “principio”.
+                                    </p>
+                                    <p>
+                                        Este mismo y erróneo tratamiento también se recoge
+                                        en el artículo 39.7, referido a la inclusión en la
+                                        Formación Profesional, donde también se relega a un
+                                        mero “principio”.
+                                    </p>
+                                    <p>
+                                        Y en su artículo 121, cuando se refiere al proyecto
+                                        educativo de centro, se refiere de nuevo a la
+                                        inclusión educativa, pero como un mero “valor”.Desde
+                                        el punto de vista legal, ni desde el fáctico
+                                        inclusivo y educacional esto no es así.
+                                        <strong>La educación inclusiva, en toda su amplitud y
+                                            adaptación, está considerada como un derecho
+                                            humano fundamental de todos los estudiantes, que
+                                            como a tal es exigible en la normativa de superior
+                                            rango que nos es aplicable.</strong>
+                                    </p>
+                                    <p>
+                                        En tal sentido nos remitimos a lo expuesto en el
+                                        Tratado Internacional de la Convención de las
+                                        Naciones Unidas (BOE 21 de abril de 2008) sobre la
+                                        exigibilidad de la educación inclusiva y su completo
+                                        desarrollo. Sin embargo, la normativa de educación
+                                        de nuestro país lo sigue ignorando. Bajo abstractos
+                                        conceptos de “valor”, “principios”, etc., no
+                                        exigibles ni coercibles, se impide la concreta y
+                                        completa adaptabilidad de las adaptaciones
+                                        curriculares de los estudiantes en su derecho humano
+                                        fundamental a la educación inclusiva. No se cumple
+                                        la normativa citada, pues en base a esa ley no se
+                                        deduce la exigencia de adaptaciones completas y
+                                        especificas en cada supuesto personalizado.
+                                    </p>
+
+                                    <p>
+                                        <strong>Ante esta vulneración del Tratado Internacional,
+                                            el Comité de Naciones Unidas llamó la atención al
+                                            Estado Español, en diferentes ocasiones.
+                                        </strong>
+                                        El 1997 la Asociación de Padres SOLCOM presentó
+                                        denuncia ante el Secretario General de Naciones
+                                        Unidas. Se creó una comisión que se trasladó a las
+                                        diferentes comunidades autónomas del Estado Español
+                                        para comprobar la veracidad de los hechos
+                                        denunciados y emitió su Informe Vinculante de 4 de
+                                        junio de 2017 en el que en las Conclusiones,
+                                        concretamente en el
+                                        <a target="_blank"
+                                            href=" https://altascapacidades.es/portalEducacion/html/otrosmedios/informe-ONU.pdf  ">apartado
+                                            2, Párrafo 84 punto b) Naciones
+                                            Unidas</a>
+
+                                        preceptúa:
+                                        <strong>“Contemplar la educación inclusiva como un
+                                            derecho y no sólo como un principio”</strong>
+                                    </p>
+                                    <p>
+                                        En el 2020, con motivo de los incumplimientos del
+                                        Estado Español respecto de un niño con síndrome de
+                                        Down de un IES de León, su padre se vio obligado a
+                                        denunciar al Estado Español ante el Secretario
+                                        General de Naciones Unidas. En el correspondiente
+                                        Informe Vinculante de Naciones Unidas de 18 de
+                                        septiembre de 2020, en sus conclusiones página 14
+                                        punto C señala:
+                                    </p>
+
+                                    <p>
+                                        <i>“9. El Comité, actuando en virtud del artículo 5
+                                            del Protocolo Facultativo, dictamina que el Estado
+                                            parte ha incumplido las obligaciones que le
+                                            incumben en virtud de los artículos 7,15, 17, 23 y
+                                            24 leídos solos y conjuntamente con el artículo 4
+                                            de la Convención”.</i>
+                                    </p>
+
+                                    <p>
+                                        Y, ya en
+                                        <a target="_blank"
+                                            href=" https://altascapacidades.es/portalEducacion/html/otrosmedios/informe-ONU.pdf  ">
+                                            el apartado 9 b II, Naciones Unidas</a>advierte de nuevo al Estado Español
+                                        señalando:
+                                        <strong>“Adopte medidas para considerar la educación
+                                            inclusiva como un derecho”</strong>
+                                    </p>
+
+                                    <p>
+                                        El Estado Español que quiso firmar el Tratado
+                                        Internacional Convención de Naciones Unidas no puede
+                                        contradecir el “derecho humano fundamental de todos
+                                        los estudiantes a la Educación Inclusiva”,
+                                        transformándolo en un mero “principio inspirador”,
+                                        pues se trata de un derecho real y superior a
+                                        ajustes razonables , apoyos personalizados,
+                                        verdaderas adaptaciones curriculares, con los medios
+                                        personales y técnicos, con el derecho a reclamarlos,
+                                        incluso legalmente, si no se facilitan.
+                                    </p>
+
+                                    <p>
+                                        Este derecho fundamental es la verdadera base que
+                                        otorga al estudiante afectado, los medios necesarios
+                                        para estudiar en condiciones de igualdad en el
+                                        entorno, y le proporciona “ipso iure” los medios
+                                        para su adaptación y le permite, sin equívocas
+                                        concesiones discrecionales, una educación integral.
+                                        Una educación personalizada, adaptada, específica e
+                                        íntegra que le garantiza el principio de igualdad en
+                                        la educación y en el desarrollo personal. Además,
+                                        conforme a todos los informes reseñados, el respeto
+                                        a la educación inclusiva mejora los indicadores de
+                                        bienestar bio-psico-social de toda la comunidad
+                                        educativa y, por ende, también los resultados
+                                        académicos nacionales. El concepto de educación
+                                        inclusiva como el derecho humano fundamental de
+                                        todos los estudiantes aplicable y exigible, que en
+                                        realidad es, tal y como lo establece la normativa
+                                        internacional superior ratificada por España.
+                                    </p>
+                                    <p>
+                                        En ciertos ámbitos se dice que el derecho
+                                        fundamental no es a la educación inclusiva, sino a
+                                        la educación. Este sofisma tiene escaso recorrido
+                                        desde que se sabe científicamente que cada
+                                        estudiante aprende de una manera única (es decir de
+                                        una manera diferente) (Observación General de
+                                        Naciones Unidas (CG4), Párrafo 25). <br />
+                                        <strong>Científicamente se sabe también que forzar la
+                                            mente de los estudiantes con formas, modos, ritmos
+                                            o estilos de aprendizaje estándar, diferentes de
+                                            los propios de su cerebro diferente, les resulta
+                                            es muy dañino, por lo que ofrecerles una educación
+                                            estandarizada, no inclusiva, es decir dañina, en
+                                            modo alguno puede ser un derecho del estudiante,
+                                            por lo que la educación se ofrece adaptada a la
+                                            diferente forma de realizar los procesos del
+                                            aprendizaje de cada estudiante, o no es educación.
+                                        </strong>
+                                    </p>
+                                    <p>
+                                        Nos preocupa, además, especialmente, que las
+                                        Comunidades Autónomas, en su desarrollo legislativo
+                                        de aplicación de la LOMLOE y otra legislación de
+                                        ámbito educativo, sigan la línea errónea señalada e
+                                        ignoren también la cualidad del derecho fundamental
+                                        de la educación inclusiva.
+                                        <strong>Pero, nos tranquiliza el hecho de que los
+                                            Abogados especializados en Derecho a la Educación
+                                            que constituyen el Departamento de Legislación
+                                            Interior de El Defensor del Estudiante se hayan
+                                            dirigido a todos los 17 Consejeros de Educación de
+                                            las Comunidades Autónomas y les hayan ofrecido su
+                                            asesoramiento legal (gratuito), orientado a
+                                            respetar íntegramente los derechos educativos
+                                            reconocidos en las leyes de superior rango, a la
+                                            hora de realizar normativas autonómicas de
+                                            desarrollo y aplicación. De esta manera, si
+                                            desprecian este desinteresado ofrecimiento de
+                                            asesoramiento legal y en su legislación autonómica
+                                            incurren en vulneración de derechos reconocidos en
+                                            la legislación de superior rango, los Tribunales
+                                            de Justicia podrán tener en cuenta esta
+                                            circunstancia.
+                                        </strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class=" accordion-header m-3 mr-2" id="headingTwelve">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwelve" aria-expanded="true"
+                                    aria-controls="collapseTwelve">
+                                    <strong>Es claro que los Tratados Internacionales
+                                        aprobados, suscritos por el Estado y publicados en
+                                        el Boletín Oficial del Estado vinculan a los
+                                        ciudadanos en este estado en el que rige el
+                                        principio de jerarquía normativa. Pero ¿Los Tratados
+                                        Internacionales vinculan igualmente a las
+                                        Administraciones Educativas y a sus disposiciones?
+                                    </strong>
+                                </button>
+                            </h2>
+                            <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body m-3">
+                                    <p>
+                                        Las disposiciones administrativas son normas
+                                        secundarias subordinadas a las emanadas del Poder
+                                        Legislativo, que son normas primarias o asimiladas
+                                        con fuerza de ley, Estas a su vez están subordinadas
+                                        a la Constitución y a los Tratados o Convenios
+                                        Internacionales firmados por el Estado Español, que
+                                        constituyen el vértice de la jerarquía normativa,
+                                        que es indubitada.
+                                    </p>
+                                    <p>
+                                        El Título VI de la Ley 39/2015, de 1 de octubre, del
+                                        Procedimiento Administrativo Común de las
+                                        Administraciones Públicas, establece la regulación
+                                        vigente sobre jerarquía normativa en relación a las
+                                        normativas de las Administraciones. Así, al regular
+                                        la potestad reglamentaria de las Administraciones
+                                        Públicas en el art. 128 Ley 39/2015 establece que
+                                        los reglamentos y disposiciones administrativas no
+                                        podrán vulnerar la Constitución o las leyes.
+                                    </p>
+                                    <p>
+                                        De hecho, el apartado tercero dispone que las
+                                        disposiciones administrativas se ajustarán al orden
+                                        de jerarquía que establezcan las leyes, de forma que
+                                        ninguna disposición administrativa puede vulnerar
+                                        los preceptos de otra de rango superior. El Artículo
+                                        128.3 preceptúa:
+                                        <strong>
+                                            “Las disposiciones administrativas se ajustarán al
+                                            orden de jerarquía que establezcan las leyes.
+                                            Ninguna disposición administrativa podrá vulnerar
+                                            los preceptos de otra de rango superior”.
+                                        </strong>
+                                    </p>
+                                    <p>
+                                        El apartado segundo del artículo 47 de la Ley
+                                        39/2015 establece las consecuencias de la
+                                        vulneración de las normas jerárquicamente superiores
+                                        - Constitución, Tratados o Convenios Internacionales
+                                        suscritos por España, las leyes u otras
+                                        disposiciones administrativas de rango superior- por
+                                        parte de las disposiciones administrativas, que no
+                                        es otra que la nulidad de pleno derecho de esas
+                                        disposiciones. El Artículo 47.2 establece:
+                                        <strong>
+                                            “También serán nulas de pleno derecho las
+                                            disposiciones administrativas que vulneren la
+                                            Constitución, las leyes u otras disposiciones
+                                            administrativas de rango superior, …”</strong>
+                                    </p>
+                                    <p>
+                                        A mayor abundamiento, el Artículo 6 de la Ley
+                                        Orgánica del Poder Judicial dispone:
+                                        <strong>
+                                            “Los Jueces y Tribunales no aplicarán los
+                                            reglamentos o cualquier otra disposición
+                                            contrarios a la Constitución, a la ley o al
+                                            principio de jerarquía normativa.</strong>
+                                    </p>
+                                    <p>
+                                        Por su parte, el Código Penal, en su Artículo 404
+                                        establece:
+                                        <strong>
+                                            “La autoridad o funcionario público que, a
+                                            sabiendas de su injusticia, dictare una resolución
+                                            arbitraria en un asunto administrativo se le
+                                            castigará con la pena de inhabilitación especial
+                                            para empleo o cargo público por tiempo de 7 a 10
+                                            años.</strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class=" accordion-header m-3 mr-2" id="headingSixteen">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSixteen" aria-expanded="true"
+                                    aria-controls="collapseFifteen">
+
+                                    <strong>
+                                        Los padres tenemos el derecho a escoger el tipo de educación que habrá que darse
+                                        a nuestros hijos, como reconoce la Declaración Universal de Derechos Humanos en
+                                        su Artículo 26.3: <br /><br /> “Los padres tendrán derecho preferente a escoger
+                                        el tipo de educación que habrá de darse a sus hijos”.
+                                        <p>La Constitución en su Artículo 10.2 establece: </p>
+                                        <p><i>“Las normas relativas a los derechos fundamentales y a las
+                                                libertades que la Constitución reconoce se interpretarán de conformidad
+                                                con la Declaración Universal de Derechos Humanos y los tratados y
+                                                acuerdos internacionales sobre las mismas materias ratificados por
+                                                España”.
+                                            </i></p>
+                                        <p>En el Tratado Internacional, suscrito por el Estado Español, Carta de
+                                            Derechos y Libertades de la Unión Europea, -proclamada el 12 de diciembre de
+                                            2007 en Estrasburgo, (que es la parte dogmática-constitucional del Tratado
+                                            de Lisboa, se añadió expresamente la garantía de las convicciones
+                                            pedagógicas de los padres en la educación de sus hijos. Su Art. 14. 3.
+                                            “Derecho a la Educación”, reconoce y garantiza: «…la libertad de creación de
+                                            centros docentes dentro del respeto a los principios democráticos, así como
+                                            “el derecho de los padres a garantizar la educación y la enseñanza de sus
+                                            hijos conforme a sus convicciones religiosas, filosóficas y pedagógicas”.
+                                        </p>
+                                        <p>El Tratado Internacional Convención de Naciones Unidas define la Educación
+                                            Inclusiva, como:
+
+                                            “Un derecho humano fundamental de todos los estudiantes”.
+                                            (CG-4) de 13 de septiembre de 2016, Párrafo 10
+                                        </p>
+                                        <p>Y, el Estado Español, por el Artículo 24.1 del Tratado Internacional
+                                            Convención de Naciones Unidas, se ha comprometido a:
+
+                                            “Los Estados Partes asegurarán un sistema de educación inclusivo a todos los
+                                            niveles”.
+                                        </p>
+                                        <p>Nuestra Ley Orgánica de Educación 8/1985, de 3 de julio, reguladora del
+                                            Derecho a la Educación, en su Artículo 4, establece: <br>
+
+                                            “Los padres, madres o tutores, en relación con la educación de sus hijos e
+                                            hijas o pupilos y pupilas, tienen los siguientes derechos: <br>
+                                            …. <br>
+                                            “b) A escoger centro docente tanto público como distinto de los creados por
+                                            los poderes públicos”.
+                                        </p>
+                                        <p>Pero, a la hora de ejercer este derecho de elegir el centro docente que más
+                                            se ajusta a nuestras convicciones filosóficas y pedagógicas ¿Cómo puedo
+                                            conocer y constatar que un centro educativo ha realizado el preceptivo
+                                            cambio metodológico desde la vieja metodología uniforme, igualitaria y
+                                            estandarizada a la Educación Inclusiva o personalizada? ¿Los padres, cómo
+                                            podemos saber si una escuela orienta la atención a la diversidad en la
+                                            preceptiva Educación Inclusiva, como derecho humano fundamental de todos los
+                                            estudiantes, más allá de la publicidad que hacen algunos centros educativos,
+                                            que con frecuencia resulta más o menos engañosa?</p>
+                                    </strong>
+
+
+                                </button>
+                            </h2>
+                            <div id="collapseSixteen" class="accordion-collapse collapse"
+                                aria-labelledby="headingSixteen" data-bs-parent="#accordionExample">
+                                <div class="accordion-body m-3">
+                                    <p>Debemos decir, en primer lugar, que las referencias legales de la pregunta se
+                                        hallan adecuada y oportunamente citadas.</p>
+                                    <p>La elección de centro educativo para los hijos constituye una de las más graves
+                                        responsabilidades de los padres. Para acertar en tan importante decisión existe
+                                        la manera de obtener un conocimiento de la metodología de cada centro educativo.
+                                    </p>
+                                    <p>La Ley Orgánica de Educación LOMLOE en su Artículo 121establece que todos los
+                                        centros educativos deben tener su <b>“Proyecto Educativo de Centro”.</b>
+                                        Su Apartado 2 ordena que el <b>Proyecto Educativo de Centro debe contener la
+                                            Forma de Atención a la Diversidad</b> del centro educativo.
+                                    </p>
+                                    <p>Y, esta <b> debe estar orientada en los principios de no discriminación y de
+                                            educación inclusiva como valores fundamentales.</b>
+                                        Su Apartado 3 establece que el <b> Proyecto Educativo de Centro es un documento
+                                            público,</b> por lo que ningún centro educativo puede negarlo ni retrasar su
+                                        entrega.
+                                    </p>
+                                    <a href="pdf/LEY ORGÁNICA DE EDUCACIÓN LOMLOE.pdf" target="_blank">Ver aquí</a> el
+                                    texto del Artículo 121 de la Ley Orgánica de Educación.
+                                    <p>Cuando los padres hemos elegido el centro educativo que nos ha parecido mas
+                                        conforme a nuestras convicciones religiosas, filosóficas y pedagógicas, firmamos
+                                        con ese centro educativo un contrato por el que como primeros responsables y
+                                        titulares que somos del derecho-deber de la educación, delegamos ciertos
+                                        aspectos en ese centro. Ese contrato, se compone de dos documentos, que son:</p>
+                                    <p>
+                                        <ol>
+                                            <li> El Proyecto Educativo del Centro, que contiene la forma de atención a
+                                                la diversidad.</li>
+                                            <li> El impreso hoja de inscripción o matriculación.</li>
+                                        </ol>
+                                    </p>
+                                    <p>La conjunción de ambos documentos constituye el contrato, que en muchas ocasiones
+                                        no somos conscientes de que lo estamos estableciendo, ni de sus repercusiones
+                                        legales, y quizá nos preocupamos más de otros a aspectos, como la comodidad de
+                                        la proximidad al domicilio.</p>
+                                    <p>Para realizar una adecuada elección de centro educativo es necesario contactar
+                                        con varios de ellos y solicitar a cada uno su Proyecto Educativo de Centro y
+                                        estudiar con detalle la forma de atención a la diversidad de cada uno de ellos
+                                        en especial si esta se oriente en la Educación Inclusiva como principio
+                                        fundamental y como derecho humano fundamental de todos los estudiantes. Para
+                                        ello será útil comparar la descripción de la forma de atención a la diversidad
+                                        con las características de la educación inclusiva que realiza Naciones unidas en
+                                        su Informe de obligado cumplimiento, la Observación General (CG4) de 13 de
+                                        septiembre de 2016.</p> <a
+                                        href="https://altascapacidades.es/portalEducacion/contenidos/noticia/Derecho-a-la-Educacion-Inclusiva-Art-24-Comentario-ONU-2016.pdf"
+                                        target="_blank">Ver aquí</a> el COMITÉ SOBRE LOS DERECHOS DE
+                                    LAS PERSONAS CON DISCAPACIDAD.
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header m-3 mr-2"" id=" headingSeventeen">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseSeventeen" aria-expanded="true"
+                                    aria-controls="collapseSeventeen">
+                                    <strong>
+                                        5. Cuando los padres tras el diagnóstico de las capacidades de su hijo o
+                                        Evaluación Multidisciplinar descubren que necesita una educación personalizada
+                                        ¿Es necesario que lo cambien de centro educativo?
+                                    </strong>
+                                </button>
+                            </h2>
+                            <div id="collapseSeventeen" class="accordion-collapse collapse"
+                                aria-labelledby="headingSeventeen" data-bs-parent="#accordionExample">
+                                <div class="accordion-body m-3">
+                                    <p>Depende. Hay que partir de la base por la que la Educación Inclusiva o
+                                        personalizada no es solo para los estudiantes a los que se les ha diagnosticado
+                                        una educación específica personalizada, sino que como establece el Tratado
+                                        Internacional Convención de Naciones Unidas, la Educación Inclusiva es “un
+                                        derecho humano fundamental de todos los estudiantes” y es la metodología
+                                        preceptiva en todos los centros educativos desde la entrada en vigor del Tratado
+                                        Internacional Convención de Naciones Unidas en el 2008.</p>
+                                    <p>En el 2006 al entrar en vigor la Ley Orgánica de Educación LOE, el Ministerio de
+                                        Educación publicó su escrito: <a
+                                            href="https://altascapacidadescse.org/documentos/3_atencio_a_la_diversida_loe/Doc._1._Atencion_a_la_Diversidad_en_la_LOE.pdf"
+                                            target="_blank">“Atención a la Diversidad en la LOE”</a> , que inicia
+                                        constatando una realidad importante: Los informes de la OCDE han puesto de
+                                        manifiesto que los países en los que los estudiantes alcanzan los mejores
+                                        resultados son aquellos que han desarrollado la educación inclusiva que conlleva
+                                        el diagnóstico temprano de las capacidades de todos los estudiantes, con estas
+                                        palabras:</p>
+                                    <p>“Los diferentes informes de la OCDE, en relación con las características de los
+                                        países cuyos sistemas educativos obtienen mejores resultados escolares,
+                                        coinciden en sostener que el factor común a todos ellos es la aplicación de
+                                        políticas
+                                        inclusivas, que conllevan un diagnóstico temprano de las necesidades específicas
+                                        de apoyo educativo de los alumnos con problemas de aprendizaje y una atención
+                                        personalizada de los mismos”.
+                                    </p>
+                                    <p>Es evidente que si unos padres, por desconocimiento, inicialmente eligieron un
+                                        centro educativo de metodología uniforme o igualitaria, o de transmisión grupal,
+                                        deberán corregir el error de forma inmediata, pues un centro de metodología
+                                        ilegal no debería ser elegido por ningún padre.</p>
+                                    <p>Un centro educativo que previamente no haya realizado el cambio metodológico a la
+                                        educación inclusiva o personalizada resultará imposible que pueda personalizar
+                                        la educación a un niño en particular, mientras no realice el cambio
+                                        metodológico. Lo explica con claridad la Doctora Esther Secanilla en su libro:
+                                        “SUPERMENTES Reconocer las altas capacidades en la Infancia” (Editorial GEDISA)
+                                        en donde cita al Dr. Liberman:</p>
+                                    <p>“No es posible ofrecer una educación personalizada a un niño mientras el resto
+                                        del aula sigue funcionando en el obsoleto sistema de trasmisión grupal orientado
+                                        a la mera reproducción de contenidos curriculares. No es posible educar a un
+                                        niño en un aula que lejos de facilitar su sociabilización incrementa y potencia
+                                        su segregación. El aula debe convertirse en comunidad de aprendizaje y todo el
+                                        sistema debe ser inclusivo conforme el Estado se ha comprometido a garantizar en
+                                        el Artículo 24 de la Convención de Naciones Unidas”.</p>
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item mb-3">
+                            <h2 class="accordion-header m-3 mr-2"" id=" headingTwenty">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwenty" aria-expanded="true"
+                                    aria-controls="collapseFifteen">
+                                    <strong>
+                                        ¿El carácter vinculante de un Tratado Internacional suscrito por el Estado
+                                        Español, –en este caso la Convención de Naciones Unidas-, viene limitado al
+                                        texto inicial de dicho tratado, o su obligatoriedad es extensible a los futuros
+                                        informes que se realicen?
+                                    </strong>
+                                </button>
+                            </h2>
+                            <div id="collapseTwenty" class="accordion-collapse collapse" aria-labelledby="headingTwenty"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body m-3">
+                                    <p>Cuando un Estado suscribe un Tratado Internacional de un organismo internacional
+                                        -en este caso la Organización de Naciones Unidas, queda vinculado a acatar todos
+                                        los informes que dicho organismo internacional emita para la aplicación y
+                                        desarrollo del texto inicial, por tanto, todos los Informes de Naciones Unidas
+                                        de aplicación y desarrollo del Tratado Internacional son vinculantes para
+                                        España, para todos los ciudadanos y para sus administraciones.</p>
+                                    <p>Hoy otro tipo de informes de Naciones Unidas relacionados con el mismo Tratado
+                                        Internacional, que son los Informes que emite Naciones Unidas consecuencia de
+                                        que unos padres han tenido que denunciar al Estado Español por incumplimiento,
+                                        en la educación de su hijo, de algún derecho reconocido en dicho tratado. Estos
+                                        Informes de Naciones Unidas también tienen carácter vinculante, pues así lo ha
+                                        establecido la Sentencia del Tribunal Supremo de 17 de julio de 2018 que
+                                        reconoce que el carácter de estos dictámenes del Comité de Naciones Unidas es
+                                        hermenéutico, pero también vinculante, y además ejecutivo, con independencia de
+                                        que, en el Estado español, exista o no un procedimiento autónomo y específico
+                                        para reclamar su ejecución.</p>
+                                    <p>Los padres de cualquier niño con Evaluación Multidisciplinar o Diagnóstico
+                                        Bio-psico-social, si no hallan Justicia en España pueden acudir a Naciones
+                                        Unidas, como tuvo que hacer el padre de Rubén de un instituto público de León,
+                                        que ha obtenido el <a
+                                            href="https://altascapacidades.es/portalEducacion/html/otrosmedios/ESPANYA,EDUC.INCLUSIVA.CRPD_C_23_D_41_2017_31921_S.pdf"
+                                            target="_blank">Informe de Naciones Unidas </a> en fecha 18 de septiembre de
+                                        2020.</p>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+
+        <!-- Support Button-->
+        <div class="support-button text-center d-flex align-items-center justify-content-center mt-4 wow fadeInUp"
+            data-wow-delay="0.5s" style="
+            visibility: visible;
+            animation-delay: 0.5s;
+            animation-name: fadeInUp;
+          ">
+            <i class="lni-emoji-sad"></i>
+            <p class="mb-0 px-2">
+                <a href="mailto:confederacion_ceas@hotmail.com"> Envíanos</a> tu
+                consulta y te contestaremos.
+            </p>
+        </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-fluid">
+            <div class="row mb-5">
+                <div class="col-md-4 col-sm-11 col-xs-11">
+                    <div class="footer-text pull-left">
+                        <a href="index.html"><img src="img/banner.jpeg" alt=""></a>
+                        <p class="card-text mt-3 mb-3">Confederación que ofrece seguridad conceptual a los niños y
+                            jóvenes
+                            científicamente
+                            diagnosticados, a sus familias, y al conjunto de la sociedad.</p>
+
+
+                    </div>
+                </div>
+
+                <div class="col-md-2 col-sm-1 col-xs-1 mb-2"></div>
+
+                <div class="col-md-2 col-sm-4 col-xs-4">
+                    <h5 class="heading">Links</h5>
+                    <ul class="links">
+                        <li>
+                            <a href="quienes-somos.html">Quiénes Somos</a>
+                        </li>
+                        <li>
+                            <a href="que-hacemos.html">Qué Hacemos</a>
+                        </li>
+                        <li>
+                            <a href="legislacion.html">Qué dicen las leyes</a>
+                        </li>
+                        <li>
+                            <a href="criterios.html">Criterio y Normativas</a>
+                        </li>
+                        <li>
+                            <a href="consultorio.html">Consultorio</a>
+                        </li>
+                        <li>
+                            <a href="articulos.html">Artículos</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 col-sm-5 col-xs-5">
+                    <h5 class="heading">Contacto</h5>
+                    <ul>
+                        <li><i class="bx bxs-envelope"></i> confederacion_ceas@hotmail.com</li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <div class="divider mb-4"></div>
+
+            <div class="row">
+
+                <div class="policy text-center">
+
+                    Copyright &copy; <script>
+                        document.write(new Date().getFullYear())
+                    </script> All Rights Reserved. | By <a href="mailto:paula.r.cosano@gmail.com">
+                        Paula Cosano
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+        <button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top">
+            <ion-icon name="chevron-up-outline"></ion-icon>
+        </button>
+    </footer>
+    <!-- Modal -->
+    <div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog  modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title"></h5>
+                    <button type="button" class="btn-close mr-5" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="text-center mt-3">
+                                <h3>¡Contáctanos!</h3>
+                            </div>
+                            <div class="col-lg-8">
+
+                                <form class="p-lg-5 col-12 row g-3"
+                                    action="https://formsubmit.co/confederacion_ceas@hotmail.com" method="POST">
+
+                                    <div class="col-12">
+
+                                        <label for="userName" class="form-label">Nombre</label>
+                                        <input name="name" type="text" class="form-control" placeholder="Tu nombre"
+                                            id="userName" aria-describedby="emailHelp" required />
+                                    </div>
+
+                                    <div class="col-12">
+                                        <label for="userName" class="form-label">Email</label>
+                                        <input type="email" type="email" class="form-control"
+                                            placeholder="email@ejemplo.com" id="userName" aria-describedby="emailHelp"
+                                            name="email" required />
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="exampleInputEmail1" class="form-label">Mensaje</label>
+                                        <textarea name="message" placeholder="Escribe su mensaje" class="form-control"
+                                            id="" rows="10" cols="20" maxlength="”200”" required></textarea>
+                                    </div>
+                                    <input type="hidden" name="_next"
+                                        value="https://confederacionceas.altascapacidades.es/thanks.html">
+
+
+                                    <input type="hidden" name="_subject"
+                                        value="Nuevo email de la Confederación Española de Asociaciones de Altas Capacidades">
+
+
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-brand">
+                                            Enviar mensaje
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-lg-4 mt-5"> <img class="img-modal" src="img/undraw_letter_re_8m03.svg"
+                                    alt="sent"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/app.js"></script>
+
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
+</body>
+
+</html>

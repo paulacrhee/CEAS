@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+
+  <!-- cdn link  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="shortcut icon" type="image/png" href="img/logo2.png" />
+
+  <title>Confederación Española de Asociaciones de Altas Capacidades</title>
+  <meta name="description" content="Confederación Española de Asociaciones de Altas Capacidades" />
+  <!--<meta property="og:title" content="Confederación Española de Asociaciones de Altas Capacidades" />
+<meta property="og:description" content="A blog about frontend web development - tips, tricks, use cases, how-tos, examples, stories." />
+<meta property="og:url" content="https://nikitahl.com/" />
+<meta property="og:image" content="https://nikitahl.com/images/icons/twitter-image.png" />
+
+<meta name="twitter:title" content="Frontend Dev Blog">
+<meta name="twitter:description" content="A blog about frontend web development - tips, tricks, use cases, how-tos, examples, stories.">
+<meta name="twitter:image" content="https://nikitahl.com/images/icons/twitter-image.png">
+<meta name="twitter:card" content="summary_large_image">--->
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+  <!-- TOP NAV -->
+  <div class="top-nav shadow-sm" id="home">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-auto">
+        </div>
+        <div class="col-auto">
+          <div class="row">
+            <div class="col-sm">
+              <div class="ml-3" id="google_translate_element"></div>
+            </div>
+            <div class="col-sm mb-3">
+              <div class="social-links text-center text-lg-right pt-3 pt-lg-0">
+                <a href="#" class="increaseFont"><i class='bx bx-font-size'></i></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-lg shadow-sm navbar-light bg-white bg-gradient">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="img/logo.png" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="quienes-somos.html">Quiénes Somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="que-hacemos.html">Qué Hacemos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="legislacion.html" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Legislación
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="nav-link dropdown-item" href="legislacion.html">Qué dicen las Leyes </a></li>
+              <li><a class="nav-link dropdown-item" href="criterios.html">Criterio y Normativas </a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="consultorio.html">Consultorio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="articulos.html">Artículos</a>
+          </li>
+
+        </ul>
+        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" type="button"
+          class="btn btn-brand ms-lg-3 ml-5">Contacto</a>
+      </div>
+    </div>
+  </nav>
+  <div class="image-aboutus-banner" id="about-us-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="lg-text">Quiénes somos</h1>
+          <p class="image-aboutus-para">“¿Qué es la Confederación Española de Asociaciones de Altas Capacidades?”</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bread-bar mb-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-8">
+          <ol class="breadcrumb">
+            <li><a href="index.html">Inicio</a></li>
+            <li class="active">Quiénes somos</li>
+          </ol>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-4">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ABOUT -->
+  <section>
+    <div class="container">
+      <div class="row justify-content-center">
+
+        <div class="col-lg-7 py-5">
+
+          <div class="row">
+            <div class="col-12">
+              <div class="info-box">
+                <div class="ms-6">
+
+                  <p class="subhead">
+                    En España, los primeros en dar a conocer que existen niñas y niños
+                    Superdotados o de Altas Capacidades, que tienen unas necesidades
+                    educativas muy específicas, y que, por tanto, tienen derecho a que se les
+                    adapte su metodología escolar, fueron sus padres, que a finales del siglo
+                    XX se fueron organizando en diferentes asociaciones de padres.
+                  </p>
+                  <p>La primera de ellas fue la Asociación de Padres y de Niños Superdotados
+                    de Cataluña AGRUPANS, creada en 1990 por la científica y madre Merçè
+                    Martínez Torres de la Universidad de Barcelona, que, con el pionero en la
+                    investigación científica específica en España, el Catedrático de Psicología
+                    Cándido Genovard y el Prof. Antoni Castelló de la UAB la promovieron. En
+                    Valencia fue el prestigioso Psicólogo Clínico Francisco Gaita Homar que
+                    promovió y dirigió la Asociación Valenciana de Superdotados y Talentosos
+                    AVAST.</p>
+                  <p>En la Comunidad de Madrid en 1992 el Profesor Titular en la Facultad de
+                    Pedagogía de la Universidad Complutense Esteban Sánchez Manzano
+                    fundó la Asociación AEST. En el Primer Congreso Internacional de
+                    Superdotación celebrado en Madrid en 1997 propuso la idea de crear la
+                    Confederación Española de Asociaciones de Altas Capacidades, como
+                    entidad aglutinadora del movimiento social de padres. Pero pronto
+                    entraron en AEST un grupo de padres con unos conceptos de
+                    superdotación muy alejados de los resultados de la investigación científica
+                    internacional. En la asamblea general de AEST formaron una nueva
+                    mayoría que echaron al Prof. Sánchez Manzano y se hicieron con la
+                    asociación.</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mt-5 img-aboutus">
+          <img src="img/portrayal-gd86180cfa_1920.jpg" alt="" style="height: 500px; width: 300px; " />
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-10">
+          <h3 class="text-center m-3">
+            ¿Qué ha sido de aquellas asociaciones de padres de niños con superdotación o altas capacidades? </h3>
+          <p>
+            Pasados los años cabe preguntarse ¿Qué ha sido de aquellas asociaciones
+            de padres que algunas de ellas consiguieron que el sistema educativo
+            tomara nota de la existencia de estos niños en sus aulas, que pusieron en
+            marcha la investigación científica específica, que alcanzó tan importantes
+            avances, y consiguieron que Jueces y Tribunales de Justicia reconocieran
+            sus diferentes necesidades educativas y que declararan ilegales algunas
+            leyes educativas que contradecían las leyes educativas de superior rango?
+          </p>
+          <p>¿Qué ha sido de aquellas asociaciones de padres de niños con Altas
+            Capacidades que incluso consiguieron que Jueces y Tribunales de Justicia
+            condenaran a Consejerías de Educación, a orientadores escolares y a
+            funcionarios docentes a que ofrecieran sin más demora la educación
+            diferente a la ordinaria facultativamente prescrita en el dictamen del
+            diagnóstico de las capacidades de sus hijos de altas Capacidades, que
+            habían realizado los centros de diagnóstico especializados que los padres
+            habían elegido?</p>
+          <p>Las actuaciones y éxitos de aquellas asociaciones de padres hicieron que la
+            Psicóloga Coks Feenstra en su libro: “El Niño Superdotado” (Editorial
+            Médici, 2003), en su capítulo: <i>“¿Qué dice la ley al respecto?”</i>, recogiera
+            algunos resultados de su labor, y a modo de síntesis, señalara:</p>
+          <p>
+            <blockquote class="blockstyle">
+              Estos padres habían presentado a los centros escolares de sus
+              hijos los diagnósticos de un centro especializado y esperaban que
+              se tomaran las medidas aconsejadas en éstos. Al ver que no hacían
+              caso recurrieron a la Justicia. El Tribunal Superior de Justicia dio la
+              razón a los padres, y condenó la mala aplicación del derecho
+              fundamental del niño por parte de la Administración educativa. Ello
+              creó una jurisprudencia clara y unívoca. <b>En todos los casos las
+                escuelas y sus equipos psicopedagógicos se han visto
+                obligados a aplicar las recomendaciones estipuladas por los
+                centros de identificación en sus informes</b>
+            </blockquote>
+          </p>
+          <p>En el 2002, la idea del Profesor Esteban Sánchez Manzano de crear la
+            Confederación Española de Asociaciones de Altas Capacidades comenzó a
+            hacerse realidad. Una de las asociaciones de padres convocó en Madrid a
+            los representantes de todas las demás que existían en aquel momento en
+            España. La idea era la de buscar la mayor fuerza futo de la unión. Así, el 8
+            de junio de 2002 se fundó en Madrid <b> La Confederación Española de
+              Asociaciones de Altas Capacidades.</b></p>
+          <p>Muy pronto se puso de manifestó que entre las diferentes asociaciones de
+            padres de niños con Altas Capacidades de España <b>existían unas
+              diferencias enormes, incluso abismales.</b>
+            Algunas asociaciones de padres, con desconocimiento de las demás
+            asociaciones habían estado elaborando y siguiendo sus propios conceptos
+            y planteamientos que en gran medida resultaban antagónicos con los de la
+            investigación científica y con los de otras asociaciones.</p>
+          <p>Aquellas otras asociaciones se orientaban y se fundamentaban en los
+            resultados de la investigación científica internacional y veían la necesidad
+            de que la recién creada Confederación debía basarse en unos conceptos
+            comunes, y que los conceptos científicos básicos no podían determinarse
+            según los gustos de los padres y el número de sus votos que en ningún
+            caso podrían reflejar la verdad científica, pues no se puede confundir la
+            realidad científica con los gustos y opiniones personales anteriores a
+            descubrir el significado científico de cada concepto, o antes de entenderlo,
+            profundizarlo y divulgarlo, y de comprender sus repercusiones en la
+            educación escolar y en general.</p>
+          <p>Se puso de manifiesto que la cuestión no era el número de padres o de
+            asociaciones, o de votos, que se inclinara en cada definición por un sentido
+            o en otro, pues los padres cuando descubren que su hijo es de Alta
+            Capacidad lo primero que deben hacer es adquirir formación científica
+            acerca de estos conceptos científicos, pues ya entonces existía una rica
+            investigación científica internacional, y especialmente en todos aquellos
+            temas en los que existía una clara unanimidad científica, y de forma
+            acelerada se estaban clarificando todos los conceptos.</p>
+          <p>Estos conceptos básicos son, por ejemplo: <i>“Inteligencia Humana”,
+              “Superdotación”, “Talento”, “Precocidad Intelectual”, “Altas Capacidades” y
+              de “Evaluación Multidisciplinar”, “respuesta escolar” o “tratamiento
+              educativo” “Ajustes Razonables” “Apoyos Personalizados en la “Educación
+              Inclusiva o Personalizada” </i>…</p>
+          <p>Se aprobó una reforma de los estatutos de la recién creada Confederación,
+            que incluyó un Artículo 6, que textualmente indica:</p>
+          <p>
+            <blockquote class="blockstyle">
+              <b>Artículo 6.- “Pueden ser miembros de la Confederación
+                aquellas federaciones y asociaciones de padres y madres
+                que compartan los fines de esta, fijados en los presentes
+                estatutos, y demuestren que sus fines y actividades se
+                hallan en plena concordancia con los principios científicos de
+                la investigación internacional sobre Superdotación y Altas
+                Capacidades”.</b>
+            </blockquote>
+          </p>
+          <p>Por tanto, sólo pueden pertenecer a la “Confederación Española de
+            Asociaciones de Altas Capacidades” aquellas federaciones y asociaciones
+            que se fundamentan en los principios científicos de la investigación
+            internacional, y en consecuencia, estas asociaciones únicamente admiten
+            aquellos casos en los que la existencia de la Superdotación o Alta
+            Capacidad se halla documentalmente acreditada con el correspondiente
+            dictamen de diagnóstico clínico completo realizado en el Modelo Bio-psicosocial
+            fundamentado en la CIF aprobada por la OMS.
+
+            (O Evaluación Multidisciplinar de las capacidades y necesidades, en la
+            denominación de la ley de superior rango que rige en España: el Tratado
+            Internacional Convención de Naciones Unidas), firmado por un equipo
+            multidisciplinar de expertos que reúnen todas las titulaciones académicas
+            y las colegiaciones que la ley preceptúa.</p>
+          <p>Todo lo que no sea esto es querer engañar o vivir de ilusiones lejos de la
+            realidad científica y legal.
+            De esta manera, aquellas federaciones y asociaciones que no aceptaban
+            los resultados de la investigación científica internacional acerca de la
+            naturaleza de la inteligencia humana, las Altas Capacidades la
+            Superdotación y su diagnóstico, y preferían guiarse por los conceptos que
+            ellos mismos se imaginaban, quedaron fuera de la <i>“Confederación
+              Española de Asociaciones de Altas Capacidades”.</i></p>
+          <p>Pero, el derecho de asociación en nuestro estado de derecho
+            afortunadamente es muy amplio, por el que aquellas asociaciones pudieron
+            crear su propia confederación. Pero eso sí, el Registro Nacional de
+            Asociaciones les obligó a que en su denominación añadieran un nombre
+            específico para que desde todos los confines no produjeran confusión a los
+            padres con la Confederación primogénita y verdadera: <i>“Confederación
+              Española de Asociaciones de Altas Capacidades”.</i></p>
+
+        </div>
+      </div>
+      <div class="row justify-content-center bg-light">
+        <h3 class="text-center m-3">
+          Pasado los años...</h3>
+
+        <div class="col-md-10">
+          <p>
+            Con el paso de los años las diferencias abismales que existían entre unas
+            asociaciones y otras se han incrementado, como ocurre con las líneas
+            divergentes que al prolongarlas su distancia es cada vez mayor.
+          </p>
+          <p>Cuando se pregunta a una federación, o una asociación que pertenece a la
+            “Confederación Española de Asociaciones de Altas Capacidades”, o a unos
+            padres que pertenecen a una de estas asociaciones reconocidas por la
+            Confederación, por el concepto de naturaleza de la inteligencia humana en
+            el que se fundamentan, o por la definición de Superdotación o Altas
+            Capacidades, etc. remiten al consenso que existe entre todos los científicos
+            especializados de mayor prestigio internacional, que todo el mundo puede
+            comprender.</p>
+          <p class="small">(Se halla en: “Definiciones científicas Altas Capacidades”, contenidas y desarrolladas en la
+            <a target="_blank" href="https://altascapacidadescse.org/cse/shop/Guia%20Cient%c3%adfica%20ICP18.pdf">“Guía
+              Científica de las Altas Capacidades”</a>, que
+            es la única obra sobre el tema que ha alcanzado la calificación de “Obra de Interés Científico y
+            Profesional”, ya que por primera vez se han alcanzado unas definiciones científicas fundamentadas en
+            la definición de naturaleza de la inteligencia humana, consensuada entre todos los mas acreditados
+            científicos del mundo. Se halla en Pág. 18 a 32. Explicación acerca de la Naturaleza de la Inteligencia
+            Humana en Conclusión Primera Pág.186 a 191.
+            Las actuales “Definiciones científicas Altas Capacidades”, cuyo desarrollo constituye la “Guía Científica
+            de las Altas Capacidades” han previsto un mecanismo permanente a escala mundial para su
+            actualización permanente, por el que se incorporan aquellos añadidos, modificaciones, matizaciones o
+            modificaciones que los resultados de las nuevas investigaciones científicas requieran.
+
+
+            <a target="_blank" href="http://www.congresomundial.altascapacidadescse.org/ "> El Congreso
+              Mundial Inteligencia Humana, Altas Capacidades y Educación </a>,
+            declarado de Carácter Científico y
+            Profesional (online y permanente). O bien en <a target="_blank"
+              href="https://altascapacidadescse.org/cse/shop/Guia%20Cient%c3%adfica%20ICP18.pdf">la guía Científica</a>
+            (página 105 a 108).</p>
+          <p>En cambio, si preguntamos a las asociaciones no pertenecientes a la
+            “Confederación Española de Asociaciones de Altas Capacidades”, o
+            individualmente a los madres o padres que pertenecen a cualquiera de
+            estas asociaciones, por el concepto de naturaleza de la Inteligencia
+            Humana, Superdotación o Altas Capacidades en que se basan, algunos no
+            saben dar respuesta alguna, otros se refieren a las obsoletas definiciones
+            que se utilizaron en el siglo pasado. Obtendremos las más variopintas
+            definiciones la mayoría de ellas psicométricas referidas a alcanzar un
+            determinado punto de corte de cociente intelectual o en los percentiles.
+            Todas estas definiciones son erróneas y dañinas.</p>
+          <p>En 1998 el Departamento de Educación de la Generalitat de Cataluña
+            publicó el libro “Alumnado excepcionalmente dotado intelectualmente”,
+            encargado, por el Gobierno de aquella Comunidad a la Asociación de
+            Padres y de Niños Superdotados de Cataluña AGRUPANS. Pero no lo
+            escriben padres sino científicos de primera línea vinculados a la Asociación:
+            el Dr. Antoni Castelló de la Universidad Autónoma de Barcelona y la Dra.
+            Mercè Martínez de la Universidad de Barcelona. Contiene, desarrolla y
+            difunde la cita del Catedrático de Psicología de la Universidad de Barcelona
+            Dr. Cándido Genovard Genovard de 1990.</p>
+          <p>
+            <blockquote class="blockstyle" style="background-color: #fff;">
+              Aquella consideración tradicional que evaluaba la capacidad
+              intelectual sólo a partir del Cociente intelectual Q.I. (un cociente
+              intelectual superior a 130) <b> está actualmente obsoleta, ya que las
+                actuales teorías cognitivistas sobre la inteligencia sustituyeron este
+                índice por organizaciones más ricas y complejas de estructuras y
+                funciones de las capacidades cognitivas</b>
+            </blockquote>
+          </p>
+          <p>El Catedrático de Ciencias de la Educación ex presidente del European
+            Council for High Abiliti Dr. Javier Tourón, interrumpió la presentación de
+            un nuevo tests de inteligencia de la psicóloga Yolanda Benito, para
+            señalar:</p>
+
+
+
+          <div class="row">
+            <div class="col-md-6  mt-5 mt-lg-0">
+              <p>
+                <blockquote class="blockstyle" style="background-color: #fff;">
+                  En la actualidad no es posible encontrar, en la investigación
+                  científica internacional, a un solo autor mínimamente
+                  relevante que admita el Cociente Intelectual, ni encontrar a
+                  nadie que admita ningún punto de corte como medida para
+                  determinar quién es o quien no es superdotado.
+                  El mayor favor que podemos hacer a los niños, a las familias y a
+                  las escuelas es olvidarnos de los puntos de corte y olvidarnos de
+                  las clasificaciones de las Administraciones Educativas. Evaluemos
+                  las capacidades que cada uno tiene y planifiquemos una
+                  intervención educativa acorde a esta capacidad.
+                  Todo lo demás es marear la perdiz, porque mientras tanto el
+                  talento de los niños no se desarrolla, muchos fracasan y acaban
+                  donde todos sabemos.</b>
+                  <p class="small">(<a href="">Ver la intervención</a> del Dr. Tourón se encuentra desde el
+                    minuto 44:00 al 46).</p>
+                </blockquote>
+              </p>
+            </div>
+            <div class="col-md-6 mt-5">
+              <iframe width="100%" height="315" src="https://www.youtube.com/embed/AZTdyLx7gAg?start=2630"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+            </div>
+            <div>
+              <p>Las obsoletas conceptualizaciones psicométricas de la Superdotación y las
+                Altas Capacidades basadas únicamente en el CI, o en percentiles, y en un
+                punto de corte, pasaron a la historia, aunque en la actualidad todavía
+                existen asociaciones de padres que se basan y difunden aquellas falsas y
+                dañinas definiciones, con diferentes puntos de corte.
+                También si recorremos los diferentes grupos de funcionarios orientadores
+                escolares de las diferentes Comunidades Autónomas hallaremos que
+                muchos de ellos se han quedado estancados en aquellas falsas
+                definiciones, que contienen grandes falsedades y enormes contradicciones
+                entre ellos, incluso tratan de imponerlas a los padres.</p>
+              <p>En algunas comunidades autónomas aprovechando que tienen capacidad
+                legislativa han creado normativas, normalmente órdenes autonómicas,
+                imponiendo estas falsas definiciones y formas erróneas de diagnosticar a
+                los niños o de determinar sus necesidades educativas. <b>Todas estas
+                  normativas carecen de validez,</b> pues, por una parte, si bien las
+                comunidades autónomas tienen legitimación para acomodar leyes
+                generales a especificidades propias, carecen de legitimación para crear
+                definiciones acerca de especificidades que afectan a toda la especie
+                humana, como es la la inteligencia humana. Por otra parte, estas órdenes
+                autonómicas son normas de inferior rango que contradicen abiertamente
+                las leyes de superior rango como los Tratados Internacionales firmados por
+                el Estado Español, en los que debe interpretarse toda normativa acerca del
+                derecho fundamental a la educación. (CE Artículo 10.2).</p>
+              <p>El Código Civil es muy claro a la hora de declarar la carecía de validez de
+                todas estas normativas autonómicas, pues en su Artículo 1.2 preceptúa:</p>
+              <p>
+                <blockquote class="blockstyle" style="background-color: #fff;">
+                  <b>Carecerán de validez las disposiciones que contradigan otra
+                    de superior rango</b>
+                </blockquote>
+              </p>
+              <p>Con cierta frecuencia orientadores escolares u otros funcionarios de la enseñanza coaccionan a los
+                padres pues quieren ser ellos los que diagnostiquen las capacidades intelectuales de sus hijos y/o
+                determinen sus necesidades educativas, careciendo de la titulación académica que las leyes
+                preceptúan. El Médico Psiquiatra y Perito Judicial Dr. Juan Luis Miranda Romero explica estos delitos de
+                coacción en su artículo:
+
+                <a target="_blank" href="http://www.infantojuvenil.eu/sepij/archivos/pdfs/LEYES_EDUCATIVAS_NULAS.pdf">
+                  “LAS LEYES
+                  EDUCATIVAS
+                  NULAS QUE IMPONEN A LOS PADRES”.
+                </a> </p>
+              <p>Los padres gozan de la seguridad científica y la seguridad jurídica, que garantiza la Constitución en
+                su
+                Artículo 9.3, cuando se rigen por la ley de superior rango que rige en España: el Tratado Internacional
+                Convención de Naciones Unidas, BOE de 21 de abril de 2008, y por los Informes Vinculantes de
+                Naciones Unidas para su aplicación y desarrollo.
+                Todo ello se halla claramente explicado por una docena de Juristas expertos en Derecho a la Educación
+                de El Defensor del Estudiante, en su <a target="_blank"
+                  href="  https://defensorestudiante.org/PDF/DJME.pdf"> “DICTAMEN JURÍDICO DEL MODELO EDUCATIVO”.
+                </a>
+              </p>
+
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-10">
+          <h3 class="text-center m-3">
+            Algunos rasgos diferenciales </h3>
+          <div class="row">
+            <div class="col-md-4 mt-5">
+              <img src="img/homework-3756173_1280.jpeg" alt="" style="height: 500px; width: 100% ">
+            </div>
+            <div class="col-md-8 mt-3">
+              <p>
+                Para que los padres no se confundan podemos referirnos a otros datos
+                diferenciales, por ejemplo, en lo referido a aspectos importantes como son
+                la Evaluación o Diagnóstico y en el tratamiento educativo escolar.
+              </p>
+              <p><b>Sobre la identificación: Evaluación o Diagnóstico de las Altas
+                  Capacidades,</b>si preguntamos a las asociaciones de padres de niños de
+                Altas Capacidades reconocidas en la Confederación Española de
+                Asociaciones de Altas Capacidades o a los mismos padres de estas
+                asociaciones, por la identificación de las Altas Capacidades intelectuales:
+                evaluación o diagnóstico, nos explicarán que el Ministerio de Educación ya
+                estableció con claridad su norma acorde con lo que preceptúa el Tratado
+                Internacional Convención de Naciones Unidas, BOE de 21 de abril de
+                2008, que es la ley de superior rango que determina la evaluación de las
+                capacidades intelectuales de los estudiantes.</p>
+              <p>Dice así <a
+                  href="https://defensorestudiante.org/de/archivos/pdf/Escritura_Notarial_Normativa_Ministerio.pdf"
+                  target="_blank">la norma</a> del Ministerio de Educación:</p>
+              <p>
+                <blockquote class="blockstyle">
+                  <b>La detección por parte de las familias o del profesorado
+                    forma parte, junto con la posterior evaluación
+                    psicopedagógica, del proceso inicial de identificación del
+                    niño superdotado; pero no es suficiente.
+                    Para determinar que un alumno se halla en los ámbitos de
+                    excepcionalidad intelectual, es imprescindible el diagnóstico
+                    clínico de profesionales especializados</b>
+                </blockquote>
+              </p>
+            </div>
+
+          </div>
+          <div>
+            <p>Al Diagnóstico Clínico de profesionales especializados (denominación del Ministerio de Educación)
+              Naciones Unidas en su Convención Internacional lo denomina: “Evaluación Multidisciplinar de las
+              capacidades y necesidades” Tratado Internacional Convención de Naciones Unidas BOE de 21 de abril
+              de 2008, Artículo 26. Ello requiere equipo multidisciplinar y diagnóstico bio-psico-social, mediante
+              la
+              CIF aprobada por la OMS el 22 de mayo de 2001, Resolución WHA54.21 de 22/5/2001. En su Capítulo
+              2.1 titulado: “Aplicaciones de la CIF”, señala las aplicaciones para que fue aprobada, destacando:
+              <ul>
+                <li>Como herramienta clínica - en la valoración de necesidades</li>
+                <li>Para homogeneizar tratamientos</li>
+                <li>Como herramienta educativa - para diseño del currículum</li>
+              </ul>
+            </p>
+            <p>Desde que científicamente se sabe que la inteligencia humana es
+              multidimensional, ontogenética: neurobiológica, neuropsicológica y
+              epigenética o socio-pedagógica, en interacción, permanente, es decir, biopsico-
+              social, sus capacidades, especificidades y factores constitutivos no
+              pueden identificarse tomando únicamente un solo tipo de ellos,
+              despreciando o ignorando los demás, lo que constituiría un evidente
+              reduccionismo anticientífico.
+              En consecuencia, estas asociaciones o las familias integradas en ellas,
+              para la identificación de las capacidades recomiendan acudir a cualquier
+              centro de diagnóstico de las capacidades de los estudiantes que esté
+              homologado.</p>
+            <p>Ello garantiza que están dirigidos por un equipo multidisciplinar de
+              profesionales expertos que reúnen la totalidad de las titulaciones
+              académicas y las colegiaciones que las leyes exigen y realizan el
+              diagnóstico clínico o Evaluación Multidisciplinar en desarrollo y aplicación
+              de la ley de superior rango que la rige en el Estado Español: el Tratado
+              Internacional Convención de Naciones Unidas, BOE de 21 de abril de
+              2008, Artículo 26.</p>
+            <p>Es natural que toda evaluación de capacidades de la inteligencia humana
+              deba ser multidisciplinar, (bio-psico-social) al ser la inteligencia humana
+              multidimensional (coincidencia entre todos los científicos especializados
+              más acreditados del mundo actual). Naciones Unidas en su Informe
+              Vinculante o Observación General CG-4 de 13 de 2 de septiembre de
+              2016, para la implementación práctica del Tratado Internacional
+              Convención de Naciones Unidas, vuelve a recordarnos el carácter o
+              enfoque multidisciplinar de la evaluación, señalando en su <a
+                href="pdf/Derecho-a-la-Educacion-Inclusiva-Art-24-Comentario-ONU-2016.pdf" target="_blank">Párrafo 53,
+                página 17</a>:</p>
+            <p>
+              <blockquote class="blockstyle" style="background-color: #fff;">
+                Dichos servicios han de iniciarse en las etapas más tempranas
+                posibles, <b>adoptando un enfoque multidisciplinar de
+                  evaluación…</b>
+              </blockquote>
+            </p>
+            <p>En consecuencia, los centros de diagnóstico de las capacidades
+              intelectuales de los estudiantes elaboran el dictamen que entregan a los
+              padres y estos presentan copia a la dirección del colegio. Estos
+              dictámenes de desarrollo y aplicación de la ley de rango superior son
+              vinculantes para todos los centros educativos, de manera que, caso de
+              que el centro educativo retrase su aplicación más de diez días, es
+              legalmente defendido de forma inmediata y gratuita por los Abogados de
+              la <a href=" https://defensorestudiante.org/" target="_blank">Institución El Defensor del Estudiante</a>
+              o, también
+              <a href="https://altascapacidadescse.org/cse/shop/Guia%20Cient%c3%adfica%20ICP18.pdf"
+                target="_blank">“Guía Científica de las Altas Capacidades”</a>, Página 99 a 104.</p>
+            <p>Por el contrario, si preguntamos por la evaluación, identificación o
+              diagnóstico de las capacidades de los estudiantes a una asociación no
+              reconocida por la “Confederación Española de Asociaciones de Altas
+              Capacidades”, sino perteneciente o a otra confederación, o a ninguna, o
+              bien a los padres integrados en asociaciones de otras confederaciones
+              acabarán por reconocer que sus hijos carecen del Diagnóstico de Altas
+              Capacidades o Evaluación Multidisciplinar que preceptúa la ley de superior
+              rango, y que tan sólo han realizado una simple evaluación
+              psicopedagógica por parte de un funcionario orientador escolar, que en su
+              mayoría no son ni licenciados en Psicología (su normativa no lo exige), y
+              que no se hallan colegiados como preceptúa la ley. Si por lo menos esta
+              evaluación psicopedagógica la realizara un psicólogo colegiado podría
+              considerarse que se trata de lo que el Ministerio de Educación en su
+              normativa denomina: <b>“proceso inicial de identificación del niño
+                superdotado; pero no es suficiente”</b> .</p>
+            <p>Pero, si lo ha realizado un funcionario orientador escolar que carece de
+              titulación académica suficiente y/o de la preceptiva colegiación, entonces
+              probablemente nos hallaremos ante un posible delito tipificado en el
+              Código Penal, como explica el Abogado del Estado y Eurodiputado D.
+              Jorge Buxadé en el <a href=" https://altascapacidadescse.org/cse/consultorio/ "
+                target="_blank">Consultorio Jurídico de Altas Capacidades</a>
+              en sus respuestas a las preguntas formuladas
+              por los padres Nº 3 y 17.
+              Los padres deben saber y tener en cuenta que los tests de inteligencia
+              son instrumentos clínicos, tal y como señalan en los mismos. Así el Wisc
+              IV en su manual oficial, página 13, señala que se trata de un instrumento
+              clínico. El Wisc V añade que solo puede ser administrado e interpretado
+              por profesionales clínicos que, además, posean una amplia experiencia en
+              diagnósticos clínicos.
+            </p>
+            <p>Los padres, por tanto, no pueden permitir y menos autorizar que personas
+              sin la correspondiente titulación académica clínica y experiencia en
+              diagnósticos clínicos sometan a sus hijos a estos tests., lo que constituye
+              un delito tipificado en el Código Penal.</p>
+            <p>Los padres también deben saber que, en cuanto a estos graves delitos,
+              gracias a la oportuna denuncia ante la ONU contra el Estado Español, que
+              formalizó la Asociación de Padres SOLCOM, se ha conseguido que
+              <b> Naciones Unidas ordenara al Estado Español
+                inmediata eliminación de esas evaluaciones psicopedagógicas.</b>
+              También Naciones Unidas ha ordenado la eliminación de los dictámenes de
+              escolarización, ambas cosas que venían realizando los funcionarios
+              orientadores sin tener la titulación académica ni la colegiación que las
+              leyes ordenas (Informe de obligado cumplimiento de Naciones Unidas de 4
+              de junio de 2017 sobre la preceptiva educación inclusiva o personalizada en las comunidades autónomas de
+              España,<a href="https://altascapacidades.es/portalEducacion/html/otrosmedios/informe-ONU.pdf"
+                target="_blank"> Párrafo 84.c página 18)</a> .</p>
+            <p>
+              <blockquote class="blockstyle">
+                Eliminar la excepción de la educación segregada en la legislación
+                educativa, <b>incluyendo la evaluación psicopedagógica</b>
+                y el
+                dictamen de escolarización
+              </blockquote>
+            </p>
+            <p>Además de las responsabilidades penales personales de los
+              funcionarios orientadores que realizan estas evaluaciones
+              psicopedagógicas sin poseer la titulación académica ni la colegiación que
+              preceptúan las leyes, existen otras responsabilidades penales por parte de
+              los funcionarios docentes, inspectores directores etc. que derivan a
+              niños a estos orientadores para que sean sometidos a estas prácticas.</p>
+            <p>También incurren en responsabilidades penales como cómplices o
+              coautores del delito por parte de aquellos docentes que con posterioridad
+              aplican los resultados de la delictiva evaluación psicopedagógica como si se
+              tratara de un diagnóstico, es decir, aplicando en la práctica escolar los
+              resultados de estas prácticas delictivas.</p>
+            <p> <b>Sobre la respuesta educativa escolar o tratamiento educativo,</b> lo
+              primero que hay que saber y tener en cuenta, es que las necesidades
+              educativas importantes de todos los niños y niñas con Altas Capacidades
+              no son las necesidades cuantitativas (cantidades de contenidos
+              curriculares o materias), sino las cualitativas (derivadas de su diferente
+              funcionamiento del cerebro, distinta forma de procesar la información y
+              de realizar los procesos del aprendizaje.</p>
+            <p>Si preguntamos en una asociación reconocida por la Confederación
+              Española de Asociaciones de Altas Capacidades, o bien a los padres de
+              alguna de las asociaciones o federaciones que la componen, nos
+              responderán que los niños y niñas de Altas Capacidades lo primero que
+              necesitan es que se les eviten las formas, modos, ritmos y estilos de
+              aprendizaje estándar, que les son muy dañinos, pues les produce el
+              llamado Síndrome de la Disincronía, y se les ofrezca los propios del
+              diferente funcionamiento de su cerebro.
+              Como señaló el Jefe de Neurología Pediátrica del Hospital Universitario
+              Clínico de Madrid San Carlos Dr. Jaime Campos Castelló:</p>
+
+            <p>
+              <blockquote class="blockstyle">
+                Los niños con Altas Capacidades antes que nada necesitan un
+                cambio pedagógico, <b> de lo contrario de deterioran
+                  cognitivamente</b>. Sólo una vez realizado el cambio pedagógico se
+                podrá entrar en considerar los contenidos curriculares.
+              </blockquote>
+            </p>
+            <p>O, nos podrán contestar con las palabras de la Catedrática de Pedagogía
+              de la Universidad de Logroño, Directora del Master Neuropsicología de las
+              Altas Capacidades, Dra. Sylvia Sastre, que señala:</p>
+            <p>
+              <blockquote class="blockstyle">
+                Las Altas Capacidades se manifiestan en unos perfiles
+                intelectuales multidimensionales de Superdotación o Talento,
+                configurados por distintos componentes, con un funcionamiento
+                diferencial en la resolución de tareas, funcionamiento ejecutivo y
+                aprendizaje. <b>Esto significa que estas personas piensan,
+                  comprenden, y conocen de manera diferente cuantitativa,
+                  pero, sobre todo cualitativamente respecto a los
+                  aprendices típicos.</b>
+              </blockquote>
+            </p>
+            <p>El sistema educativo tiene conocimiento de la manera diferente de realizar
+              los procesos de aprendizaje del cerebro de los niños y niñas de Alta
+              Capacidad.
+              La inspectora de Enseñanza Dra. Violeta Miguel Pérez, Directora del Centro
+              Nacional de Innovación e Investigación Educativa del Ministerio de
+              Educación, en su parlamento en representación del Ministerio de
+              Educación, Cultura y Deporte en el Congreso de Superdotación y Altas
+
+              Capacidades celebrado en Madrid los días 14 y 15 de Octubre del 2016, lo
+              explicaba con estas palabras:</p>
+          </div>
+          <div class="row">
+            <div class="col-md-6  mt-5 mt-lg-0">
+              <p>
+                <blockquote class="blockstyle">
+                  <b>El alumnado de alta capacidad tiene un cerebro diferente,
+                    procesa la información de forma diferente, almacena la
+                    información de forma diferente, y lo más importante,
+                    recupera la información de forma diferente.</b>
+              </p>
+              </blockquote>
+              </p>
+            </div>
+            <div class="col-md-6 mt-5">
+              <video height="200" width="100%" controls>
+                <source src="http://www.altascapacidades.es/videos/Violeta%20Miguel%20P%C3%A9rez%20-%20IV-1.mp4"
+                  type="video/mp4">
+                Your browser does not support HTML5 video.
+              </video>
+            </div>
+          </div>
+          <div>
+            <p>Y, seguidamente añadió:</p>
+          </div>
+          <div class="row">
+            <div class="col-md-6  mt-5 mt-lg-0">
+              <p>
+                <blockquote class="blockstyle">
+                  <b>Desde el Ministerio de Educación, Cultura y Deporte
+                    vamos a estar ahí, vamos a estar luchando y trabajando
+                    por dar respuesta educativa. Tengo que decir que para mí
+                    no hay nada más injusto que dar la misma respuesta
+                    educativa a personas diferentes. Tenemos que luchar por
+                    ello, porque cuando hacemos un traje a medida los
+                    alumnos son mucho más felices y se soluciona todos los
+                    problemas”.</b>
+              </p>
+              </blockquote>
+              </p>
+            </div>
+            <div class="col-md-6 mt-5">
+              <video height="200" width="100%" controls>
+                <source src="http://www.altascapacidades.es/videos/Violeta%20Miguel%20P%C3%A9rez%20-%20IV-2.mp4"
+                  type="video/mp4">
+
+                Your browser does not support HTML5 video.
+              </video>
+            </div>
+          </div>
+          <div>
+            <p> <b> El conocimiento acerca de cómo un niño procesa la información, la
+                almacena, la recupera etc., el funcionamiento de su mente, y por
+                tanto, el conocimiento de sus necesidades educativas, únicamente
+                se obtiene mediante el diagnóstico clínico o Evaluación
+                Multidisciplinar de las capacidades y necesidades.</b>
+
+              Si preguntamos en una asociación no reconocida en la Confederación
+              Española de Asociaciones de Altas Capacidades o a padres de estas
+              asociaciones, es probable que no sepan ofrecer una explicación coherente y
+              que sólo sepan contestar que como los niños con altas capacidades
+              aprenden más rápido necesitan más cantidad de aprendizajes,
+              desconociendo el daño neuronal que se les produce si previamente no se
+              les ha efectuado el cambio metodológico.</p>
+            <p class="small">(Resulta de interés ver la definición del concepto “Daño” que ofrece el <a 
+                href="https://altascapacidadescse.org/cse/diccionario.pdf"  target="_blank">“Diccionario de las Altas
+                Capacidades y de la Educación Inclusiva”</a> ). </p>
+            <p>Los profesionales de los equipos multidisciplinares de los centros
+              especializados en el diagnóstico de las capacidades de los estudiantes son
+              los que promueven la creación de las asociaciones de padres de niños de
+              Altas Capacidades que la Confederación reconoce.
+              Cuando un Centro de diagnóstico homologado ha diagnosticado a un cierto
+              número de niños con Altas Capacidades los profesionales convocan una
+              reunión de los padres, en la que se inicia la fundación de la asociación, a la
+              que los profesionales ofrecen el posterior asesoramiento científico
+              permanente. De esta manera se garantiza que en estas asociaciones todos
+              los niños y niñas estén adecuadamente diagnosticados, es decir, sean en
+              verdad de familias con niños con Altas Capacidades.</p>
+            <p>Los equipos multidisciplinares de los centros de diagnóstico especializados,
+              en su Dictamen Vinculante, además de hacer constar y describir con detalle
+              la adaptación curricular, los ajustes metodológicos y los apoyos
+              personalizados (Tratado Internacional Convención de Naciones Unidas
+              Artículo 24.2), que en cada caso se necesita, también indica la necesidad, o
+              no, de que el niño participe en actividades extraescolares con niños de
+              similares características, y los aspectos que se le deben trabajar.</p>
+            <p>tratamiento educativo escolar que se le ha diagnosticado, que supone el
+              cese inmediato o eliminación completa de los estilos de aprendizaje
+              estándar (aprendizajes mecánicos, memorísticos repetitivos), que tanto
+              daño hacen a estos niños con Altas Capacidades. Superada esta fase
+              primera o cambio metodológico a la preceptiva Educación Inclusiva o
+              personalizada y convertida el aula en comunidad de aprendizaje, el niño de
+              Alta Capacidad experimenta entonces un cambio fundamental. Se pone de
+              manifiesto, por una parte, que el problema era en realidad de
+              incumplimiento de la Ley (Incumplimiento de la ley de superior rango que
+              determina la metodología y la evaluación de las capacidades de los
+              estudiantes: el Tratado Internacional Convención de Naciones Unidas), y,
+              por otra parte, que tenía razón el presidente del European Council for High
+              Ability, Catedrático de Ciencias de la Educación y de Biología, Dr. Javier
+              Tourón, cuando en el 2002 escribía:</p>
+            <p>
+              <blockquote class="blockstyle">
+                <b>Si la escuela fuera verdaderamente adaptativa o
+                  inclusiva, los alumnos de Altas Capacidades no tendrían
+                  ningún problema.</b>
+            </p>
+            </blockquote>
+            </p>
+            <p>Es gravemente erróneo poner en marcha las actividades extraescolares sin
+              siquiera determinar su necesidad ni los aspectos que se necesita trabajar,
+              sin antes atender su necesidad educativa esencial: el tratamiento educativo
+              escolar que se ha diagnosticado. En la Comunidad de Madrid es la misma
+              Consejería de Educación quien organiza unos talleres los sábados para
+              niños y niñas de Altas Capacidades, así los padres se distraen y ja no
+              solicitan lo esencial que sus hijos necesitan: la adaptación curricular, el
+              cambio metodológico o los ajustes necesarios de entre semana, que en
+              ningún caso ofrecen a ninguno de ellos y así se evitan el mayor trabajo,
+              que exigiría el reciclaje de los docentes. En otros lugares son los mismos
+              padres los que organizan esta maniobra de distracción. El resultado
+              siempre es el mimo, que los niños se quedan sin el tratamiento educativo
+              escolar que es los que más necesitan. Recordemos lo que señalaba el Jefe de Neurología Pediátrica del
+              Hospital
+              Universitario, Clínico de Madrid Dr. Jaime Campos Castelló: <b>“Los niños de
+                Altas Capacidades necesitan un cambio metodológico, de lo
+                contrario se deterioran cognitivamente”. Sólo después de haber
+                realizado el cambio metodológico se puede entrar a considerar los
+                contenidos curriculares”.</b> </p>
+            <p>Esas actividades extraescolares siempre acaban convirtiéndose en centros
+              en centros de agresiva critica, donde se destroza el trabajo de los
+              docentes, por parte de padres, principalmente madres que se dedican a la
+              furibunda crítica con todas sus fuerzas, cuando la solución es mucho más
+              sencilla: presentar en el colegio un Diagnóstico Vinculante (Evaluación
+              Multidisciplinar de las capacidades y necesidades educativas de su hijo, en
+              el Modelo Bio-psico-social en desarrollo de la ley de superior rango).</p>
+            <p>Estas asociaciones que actúan conforme a los conocimientos científicos y a
+              las leyes de superior rango son reconocidas por la Confederación Española
+              de Asociaciones de Altas Capacidades, para garantía de estos niños, de sus
+              familias y del conjunto de la sociedad.</p>
+          </div>
+
+        </div>
+      </div>
+  </section>
+
+
+  <!-- MILESTONE -->
+  <section id="milestone">
+    <div class="container">
+      <div class="row text-center justify-content-center gy-4">
+        <h3 class="text-white">Contáctanos. Envíanos tu consulta y te contestaremos.</h3>
+      </div>
+      <div class="text-center m-3"> <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" type="button"
+          class="btn btn-brand ms-lg-3 ml-5">Contacto</a></div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="container-fluid">
+      <div class="row mb-5">
+        <div class="col-md-4 col-sm-11 col-xs-11">
+          <div class="footer-text pull-left">
+            <a href="index.html"><img src="img/banner.jpeg" alt=""></a>
+            <p class="card-text mt-3 mb-3">Confederación que ofrece seguridad conceptual a los niños y jóvenes
+              científicamente
+              diagnosticados, a sus familias, y al conjunto de la sociedad.</p>
+
+
+          </div>
+        </div>
+
+        <div class="col-md-2 col-sm-1 col-xs-1 mb-2"></div>
+
+        <div class="col-md-2 col-sm-4 col-xs-4">
+          <h5 class="heading">Links</h5>
+          <ul class="links">
+            <li>
+              <a href="quienes-somos.html">Quiénes Somos</a>
+            </li>
+            <li>
+              <a href="que-hacemos.html">Qué Hacemos</a>
+            </li>
+            <li>
+              <a href="legislacion.html">Qué dicen las leyes</a>
+            </li>
+            <li>
+              <a href="criterios.html">Criterio y Normativas</a>
+            </li>
+            <li>
+              <a href="consultorio.html">Consultorio</a>
+            </li>
+            <li>
+              <a href="articulos.html">Artículos</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 col-sm-5 col-xs-5">
+          <h5 class="heading">Contacto</h5>
+          <ul>
+            <li><i class="bx bxs-envelope"></i> confederacion_ceas@hotmail.com</li>
+          </ul>
+        </div>
+
+
+      </div>
+
+      <div class="divider mb-4"></div>
+
+      <div class="row">
+
+        <div class="policy text-center">
+
+          Copyright &copy; <script>
+            document.write(new Date().getFullYear())
+          </script> All Rights Reserved. | By <a href="mailto:paula.r.cosano@gmail.com">
+            Paula Cosano
+          </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top">
+      <ion-icon name="chevron-up-outline"></ion-icon>
+    </button>
+  </footer>
+  <!-- Modal -->
+
+  <div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog  modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title"></h5>
+          <button type="button" class="btn-close mr-5" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-0">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="text-center mt-3">
+                <h3>¡Contáctanos!</h3>
+              </div>
+              <div class="col-lg-8">
+
+                <form class="p-lg-5 col-12 row g-3" action="https://formsubmit.co/confederacion_ceas@hotmail.com"
+                  method="POST">
+
+                  <div class="col-12">
+
+                    <label for="userName" class="form-label">Nombre</label>
+                    <input name="name" type="text" class="form-control" placeholder="Tu nombre" id="userName"
+                      aria-describedby="emailHelp" required />
+                  </div>
+
+                  <div class="col-12">
+                    <label for="userName" class="form-label">Email</label>
+                    <input type="email" type="email" class="form-control" placeholder="email@ejemplo.com" id="userName"
+                      aria-describedby="emailHelp" name="email" required />
+                  </div>
+                  <div class="col-12">
+                    <label for="exampleInputEmail1" class="form-label">Mensaje</label>
+                    <textarea name="message" placeholder="Escribe su mensaje" class="form-control" id="" rows="10"
+                      cols="20" maxlength="”200”" required></textarea>
+                  </div>
+                  <input type="hidden" name="_next" value="https://confederacionceas.altascapacidades.es/thanks.html">
+
+
+                  <input type="hidden" name="_subject"
+                    value="Nuevo email de la Confederación Española de Asociaciones de Altas Capacidades">
+
+
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-brand">
+                      Enviar mensaje
+                    </button>
+                  </div>
+                </form>
+              </div>
+              <div class="col-lg-4 mt-5"> <img class="img-modal" src="img/undraw_letter_re_8m03.svg" alt="sent"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/app.js"></script>
+
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+  </script>
+</body>
+
+</html>

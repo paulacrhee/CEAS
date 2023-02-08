@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!--CDN links -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="shortcut icon" type="image/png" href="img/logo2.png" />
+
+  <title>Confederación Española de Asociaciones de Altas Capacidades</title>
+  <meta name="description" content="Confederación Española de Asociaciones de Altas Capacidades" />
+  <!--<meta property="og:title" content="Confederación Española de Asociaciones de Altas Capacidades" />
+    <meta property="og:description" content="A blog about frontend web development - tips, tricks, use cases, how-tos, examples, stories." />
+    <meta property="og:url" content="https://nikitahl.com/" />
+    <meta property="og:image" content="https://nikitahl.com/images/icons/twitter-image.png" />
+
+    <meta name="twitter:title" content="Frontend Dev Blog">
+    <meta name="twitter:description" content="A blog about frontend web development - tips, tricks, use cases, how-tos, examples, stories.">
+    <meta name="twitter:image" content="https://nikitahl.com/images/icons/twitter-image.png">
+    <meta name="twitter:card" content="summary_large_image">--->
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+  <!-- TOP NAV -->
+  <div class="top-nav shadow-sm" id="home">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-auto">
+        </div>
+        <div class="col-auto">
+          <div class="row">
+            <div class="col-sm">
+              <div class="ml-3" id="google_translate_element"></div>
+            </div>
+            <div class="col-sm mb-3">
+              <div class="social-links text-center text-lg-right pt-3 pt-lg-0">
+                <a href="#" class="increaseFont"><i class='bx bx-font-size'></i></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-lg shadow-sm navbar-light bg-white bg-gradient">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="img/logo.png" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="quienes-somos.html">Quiénes Somos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="que-hacemos.html">Qué Hacemos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="legislacion.html" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Legislación
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="nav-link dropdown-item" href="legislacion.html">Qué dicen las Leyes </a></li>
+              <li><a class="nav-link dropdown-item" href="criterios.html">Criterio y Normativas </a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="consultorio.html">Consultorio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="articulos.html">Artículos</a>
+          </li>
+
+        </ul>
+        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" type="button"
+          class="btn btn-brand ms-lg-3 ml-5">Contacto</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- SLIDER -->
+  <div class="owl-carousel owl-theme hero-slider">
+    <div class="slide slide1">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center text-white">
+            <h6 class="text-white text-uppercase animate__animated  animate__fadeInLeft animate__slow">Altas Capacidades
+            </h6>
+            <h1 class="text-white  animate__animated  animate__fadeInRight animate__slow">
+              Confederación Española de <br> Asociaciones de Altas Capacidades
+              </h2>
+              <!--<a href="#" class="btn btn-brand">Get Started</a>
+                  <a href="#" class="btn btn-outline-light ms-3">Our work</a>-->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slide slide2">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-10 offset-lg-1 text-white text-center">
+            <h6 class="text-white text-uppercase"></h6>
+            <h1 class="text-white">
+              Principales actividades <br />de la Confederación
+            </h1>
+            <div class="text-center mt-3">
+              <a href="que-hacemos.html" class="more-btn2">Saber más <i class="bx bx-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <section>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-5 py-5">
+          <div class="row">
+            <div class="col-12">
+              <div class="info-box">
+                <div class="ms-6">
+                  <div class="intro">
+                    <h6>Sobre nosotros</h6>
+                    <h1>La Confederación</h1>
+                  </div>
+                  <p>
+                    <b>La principal actividad de la Confederación Española de
+                      Asociaciones de Altas Capacidades</b>
+                    es estudiar, distinguir y reconocer a aquellas
+                    asociaciones que se refieran o se fundamenten en conceptos
+                    científicos tales como: Inteligencia Humana,
+                    Superdotación, Talento, Capacidades intelectuales o
+                    concepto similar, y que sus actividades se orienten en los
+                    principios y en las definiciones de la investigación
+                    científica internacional,
+                    <b>ofreciendo así seguridad conceptual a los niños y
+                      jóvenes científicamente diagnosticados, a sus familias,
+                      y al conjunto de la sociedad.</b>
+                  </p>
+                </div>
+                <div class=" mt-3">
+                  <a href="quienes-somos.html" class="more-btn2">Saber más <i class="bx bx-chevron-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mt-5">
+          <img src="img/about.svg" alt="" />
+        </div>
+      </div>
+    </div>
+    <p id="milestone"></p>
+  </section>
+
+  <!-- FINES -->
+  <section class="text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 h-100">
+          <div class="intro">
+            <h6>Nuestros fines</h6>
+            <h1>¿Qué hacemos?</h1>
+            <p class="mx-auto">
+              Las actividades extraescolares que los padres buscan para sus hijos de Altas Capacidades no son las que
+              organiza la Confederación Española de Asociaciones de Altas Capacidades, sino las asociaciones reconocidas
+              por la Confederación
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="service h-100">
+            <img src="img/icon1.png" alt="" />
+            <h5>Investigar</h5>
+
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service h-100">
+            <img src="img/icon2.png" alt="" />
+            <h5>Acreditar a las Asociaciones</h5>
+
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service h-100">
+            <img src="img/icon3.png" alt="" />
+            <h5>Asesoramiento científico a las familias y asociaciones </h5>
+
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service h-100">
+            <img src="img/icon4.png" alt="" />
+            <h5>Derechos del colectivo</h5>
+
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service h-100">
+            <img src="img/icon5.png" alt="" />
+            <h5>Asesoramiento legal</h5>
+
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="service h-100">
+            <img src="img/icon6.png" alt="" />
+            <div class="icon"><i class="bi bi-briefcase"></i></div>
+            <h5>Servicio de información</h5>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-3">
+      <a href="que-hacemos.html" class="more-btn2">Saber más <i class="bx bx-chevron-right"></i></a>
+    </div>
+  </section>
+
+  <!-- Leyes -->
+  <section class="bg-light  why-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 h-100">
+          <div class="intro">
+            <h6>Legislación</h6>
+            <h1>¿Qué dicen las leyes?</h1>
+            <p class="mx-auto">
+              La Confederación Española de Asociaciones de Altas Capacidades, con la ayuda del <a
+                href="https://altascapacidadescse.org/" target="_blank">Consejo Superior de Expertos en Altas
+                Capacidades</a>, también ofrece asesoramiento legal, a través de los Letrados expertos en Derecho a la
+              Educación de <a href=" https://www.defensorestudiante.org/" target="_blank">El Defensor del Estudiante</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-5 col-lg-5" data-aos="fade-up">
+          <div class="content">
+            <h3>
+              Criterios del Ministerio de Educación sobre el diagnóstico de
+              las Altas Capacidades
+            </h3>
+            <p>
+              Varias son las Consejerías de Educación que, tras la aceptación por el Estado Español del Tratado
+              Internacional Convención de Naciones Unidas, no han realizado la preceptiva adaptación de su legislación
+              interna y continúan imponiendo a los padres sus normativas autonómicas, que, al ser claramente
+              contradictorias respecto de la ley de superior rango, carecen de validez, en aplicación del Artículo 1 del
+              Código Civil.
+            </p>
+            <div class="text-center">
+              <a href="criterios.html" class="more-btn">Saber más <i class="bx bx-chevron-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-7 col-lg-7 d-flex">
+          <div class="icon-boxes d-flex flex-column justify-content-center">
+            <div class="row">
+              <div class="col-xl-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+                <div class="icon-box mt-4 mt-xl-0">
+                  <i class="bx bx-receipt"></i>
+                  <h4>Metodología Inclusiva</h4>
+
+                </div>
+              </div>
+              <div class="col-xl-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon-box mt-4 mt-xl-0">
+                  <i class="bx bx-cube-alt"></i>
+                  <h4>Diagnóstico de las Capacidades</h4>
+
+                </div>
+              </div>
+              <div class="col-xl-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon-box mt-4 mt-xl-0">
+                  <i class="bx bx-images"></i>
+                  <h4>Necesidad educativa en la Alta Capacidad</h4>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recursos-->
+  <section>
+    <div class="container">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="intro">
+              <h6>Páginas de interés</h6>
+              <h1>Altas Capacidades y Talentos</h1>
+              <p class="mx-auto">
+
+                Guía científica de las altas capacidades: Obra sobre Superdotación, Altas Capacidades y Educación
+                Inclusiva.
+                Congreso Mundial y encuentro Europeo de Altas Capacidades
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="projects-slider" class="owl-theme owl-carousel">
+        <div class="project">
+          <div class="overlay"></div>
+          <a href="https://altascapacidadescse.org/cse/shop/index.php" target="_blank">
+            <img src="img/Guía.png" alt="guia" />
+            <div class="content">
+              <h2>Guía Científica de la Altas Capacidades</h2>
+              <h6>Declarada de Interés Científico y Profesional</h6>
+            </div>
+          </a>
+        </div>
+        <div class="project">
+          <div class="overlay"></div>
+          <a href="http://congresomundial.altascapacidadescse.org/?id=2" target="_blank">
+            <img src="img/2-1.jpeg" alt="congreso" />
+            <div class="content">
+              <h2>Inteligencia humana, Altas Capacidades y Educación</h2>
+              <h6>Congreso mundial</h6>
+            </div>
+          </a>
+        </div>
+        <div class="project">
+          <div class="overlay"></div>
+          <a href="https://confederacionceas.altascapacidades.es/ConferenciaEuropeaAC.pdf" target="_blank">
+            <img src="img/european_union.jpeg" alt="europa" />
+            <div class="content">
+              <h2>Encuentro Europeo de Altas Capacidades</h2>
+              <h6>Desarrollo de las Altas Capacidades</h6>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="intro">
+            <h6>Artículos, Páginas Web y Conferencias</h6>
+            <h1>Últimos Artículos</h1>
+            <p class="mx-auto">
+              Artículos y Páginas web de interés
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <article class="blog-post h-100">
+            <img src="img/programsforg.jpeg" alt="" />
+            <a href="" class="tag">Artículo</a>
+            <div class="content">
+              <small>13 febrero 2020</small>
+              <h5>
+                ¿El derecho y el deber de educar pertenece al Estado, o a los
+                padres?
+              </h5>
+              <p>
+                El Prof. Jon Liberman. Doctor en Psiquiatría y en Derecho, nos
+                lo aclara a partir del Artículo 10.2 de la Constitución.
+              </p>
+              <a href="https://altascapacidades.es/portalEducacion/html/articulos/EL%20PIN%20PARENTAL.pdf"
+                target="_blank">Saber más
+              </a>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <article class="blog-post h-100">
+            <img class="" src="img/5cd6a4aa2100003500c67538.jpeg" alt="" />
+            <a href="" class="tag">Artículo</a>
+            <div class="content">
+              <small>8 septiembre 2018</small>
+              <h5>
+                El derecho a la educación personalizada ha llegado, ¡Actívelo!
+              </h5>
+              <p>
+                La educación inclusiva o personalizada en España es un derecho
+                humano fundamental de todos los estudiantes. Pero, para que
+                los niños reciban la educación personalizada los padres deben
+                activar este derecho.
+              </p>
+              <a href="https://www.defensorestudiante.org/de/archivos/pdf/Entrevista%20al%20Dr.%20Liberman.pdf"
+                target="_blank">Saber más
+              </a>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <article class="blog-post h-100">
+            <img class="" src="img/ABA.jpeg" alt="" />
+            <a href="" class="tag">Artículo</a>
+            <div class="content">
+              <small>23 abril 2001</small>
+              <h5 class="text-capitalize">
+                La Teoría De Joseph Renzulli, En el Fundamento del Nuevo
+                Paradigma de la Superdotación
+              </h5>
+              <p>Conferencia del Prof. Josep de Mirandés i Grabolosa</p>
+              <a href="https://altascapacidadescse.org/cse/La_Teoria_Joseph_Renzulli.pdf" target="_blank">Saber más
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-md-4">
+          <article class="blog-post h-100">
+            <img class="" src="img/IUJQK5J8HQ28K8OKSW8C.jpeg" alt="" />
+            <a href="" class="tag">Página Web</a>
+            <div class="content">
+              <h5>
+                ¿Conoce las capacidades y talentos de su hijo o hija? Usted
+                las puede detectar
+              </h5>
+              <p>
+                Todos los padres, mediante los cuestionarios que aquí se
+                ofrecen, pueden obtener un conocimiento básico de cuáles son
+                las capacidades de sus hijos. Después, llamando al centro
+                homologado para el diagnóstico de las capacidades le
+                interpretaran gratuitamente los resultados que haya obtenido.
+              </p>
+              <a href="https://www.altascapacidades.es/insti-internacional/insti-internacional/pagina/La_Deteccion.html"
+                target="_blank">Saber más
+              </a>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <article class="blog-post h-100">
+            <img class="" src="img/defensor.png" alt="" />
+            <a href="" class="tag">Página Web</a>
+            <div class="content">
+              <h5>
+                Ni un solo niño con diagnóstico de Alta Capacidad sin recibir
+                la educación diferente que necesita
+              </h5>
+              <p>
+                La Institución El Defensor del Estudiante defienden el derecho
+                fundamental de todos los estudiantes, siempre de forma
+                totalmente gratuita
+              </p>
+              <a href="https://www.altascapacidades.es/insti-internacional/insti-internacional/pagina/La_Deteccion.html"
+                target="_blank">Saber más
+              </a>
+            </div>
+          </article>
+        </div>
+        <div class="col-md-4">
+          <article class="blog-post h-100">
+            <img class="" src="img/portal.png" alt="" />
+            <a href="" class="tag">Página Web</a>
+            <div class="content">
+              <h5>Portal Educación</h5>
+              <p>
+                Descubra y disfrute de los mejores contenidos para el
+                necesario cambio educativo del Siglo XXI.
+              </p>
+              <a href="hhttps://altascapacidades.es/portalEducacion/html/portalEducacion.html" target="_blank">Saber más
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="support-button text-center d-flex align-items-center justify-content-center mt-4 wow fadeInUp"
+        data-wow-delay="0.5s" style="
+                visibility: visible;
+                animation-delay: 0.5s;
+                animation-name: fadeInUp;
+              ">
+        <a href="#" id="loadMore">Mostrar más</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cursos-->
+  <section class="values">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="intro">
+            <h6>Cursos</h6>
+            <h1>Cursos de interés</h1>
+            <p class="mx-auto ">
+              Cursos gratuitos sobre la Altas Capacidades y Educación Inclusiva
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+          <div class="card" style="background-image: url(img/i64946419.jpeg)">
+            <div class="card-body">
+              <h5 class="card-title mb-3">
+                <a href="http://altascapacidadescse.org/webcursos/" target="_blank">Altas Capacidades Y Educación
+                  Inclusiva</a>
+              </h5>
+              <p class="card-text mt-3 text-center">
+                Plan de Formación online para los docentes. <br> Lo que los
+                docentes tienen que conocer si tienen un alumno con
+                diagnóstico de alta capacidad
+              </p>
+
+              <div class="text-center mt-3">
+                <a href="http://altascapacidadescse.org/webcursos/" class="more-btn2" target="_blank">Ver curso<i
+                    class="bx bx-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="100">
+          <div class="card" style="
+                    background-image: url(img/pexels-photo-8363734.jpeg);
+                  ">
+            <div class="card-body">
+              <h5 class="card-title">
+                <a href="https://altascapacidades.es/portalEducacion/html/otrosmedios/CURSO%20ORIENTADORES.pdf"
+                  target="_blank">Curso del Gobierno de Aragón para los orientadores de la
+                  Comunidad Autónoma</a>
+              </h5>
+              <p class="card-text text-center">
+                Para orientadores de Equipos Oficiales de Asesoramiento de
+                escuelas que desean adquirir formación específica en Altas
+                Capacidades y Educación Inclusiva, debidamente actualizada.
+              </p>
+
+              <div class="text-center mt-3">
+                <a href="https://altascapacidades.es/portalEducacion/html/otrosmedios/CURSO%20ORIENTADORES.pdf"
+                  class="more-btn2" target="_blank">Ver curso<i class="bx bx-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container-fluid">
+      <div class="row mb-5">
+        <div class="col-md-4 col-sm-11 col-xs-11">
+          <div class="footer-text pull-left">
+            <a href="index.html"><img src="img/banner.jpeg" alt=""></a>
+            <p class="card-text mt-3 mb-3">Confederación que ofrece seguridad conceptual a los niños y jóvenes
+              científicamente
+              diagnosticados, a sus familias, y al conjunto de la sociedad.</p>
+
+
+          </div>
+        </div>
+
+        <div class="col-md-2 col-sm-1 col-xs-1 mb-2"></div>
+
+        <div class="col-md-2 col-sm-4 col-xs-4">
+          <h5 class="heading">Links</h5>
+          <ul class="links">
+            <li>
+              <a href="quienes-somos.html">Quiénes Somos</a>
+            </li>
+            <li>
+              <a href="que-hacemos.html">Qué Hacemos</a>
+            </li>
+            <li>
+              <a href="legislacion.html">Qué dicen las leyes</a>
+            </li>
+            <li>
+              <a href="criterios.html">Criterio y Normativas</a>
+            </li>
+            <li>
+              <a href="consultorio.html">Consultorio</a>
+            </li>
+            <li>
+              <a href="articulos.html">Artículos</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 col-sm-5 col-xs-5">
+          <h5 class="heading">Contacto</h5>
+          <ul>
+            <li><i class="bx bxs-envelope"></i> confederacion_ceas@hotmail.com</li>
+          </ul>
+        </div>
+
+
+
+      </div>
+
+      <div class="divider mb-4"></div>
+
+      <div class="row">
+
+        <div class="policy text-center">
+
+          Copyright &copy; <script>
+            document.write(new Date().getFullYear())
+          </script> All Rights Reserved. | By <a href="mailto:paula.r.cosano@gmail.com">
+            Paula Cosano
+          </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top">
+      <ion-icon name="chevron-up-outline"></ion-icon>
+    </button>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog  modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title"></h5>
+          <button type="button" class="btn-close mr-5" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-0">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="text-center mt-3">
+                <h3>¡Contáctanos!</h3>
+              </div>
+              <div class="col-lg-8">
+
+                <form class="p-lg-5 col-12 row g-3" action="https://formsubmit.co/confederacion_ceas@hotmail.com"
+                  method="POST">
+
+                  <div class="col-12">
+
+                    <label for="userName" class="form-label">Nombre</label>
+                    <input name="name" type="text" class="form-control" placeholder="Tu nombre" id="userName"
+                      aria-describedby="emailHelp" required />
+                  </div>
+
+                  <div class="col-12">
+                    <label for="userName" class="form-label">Email</label>
+                    <input type="email" type="email" class="form-control" placeholder="email@ejemplo.com" id="userName"
+                      aria-describedby="emailHelp" name="email" required />
+                  </div>
+                  <div class="col-12">
+                    <label for="exampleInputEmail1" class="form-label">Mensaje</label>
+                    <textarea name="message" placeholder="Escribe su mensaje" class="form-control" id="" rows="10"
+                      cols="20" maxlength="”200”" required></textarea>
+                  </div>
+                  <input type="hidden" name="_next" value="https://confederacionceas.altascapacidades.es/thanks.html">
+
+
+                  <input type="hidden" name="_subject"
+                    value="Nuevo email de la Confederación Española de Asociaciones de Altas Capacidades">
+
+
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-brand">
+                      Enviar mensaje
+                    </button>
+                  </div>
+                </form>
+              </div>
+              <div class="col-lg-4 mt-5"> <img class="img-modal" src="img/undraw_letter_re_8m03.svg" alt="sent"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/app.js"></script>
+
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+  </script>
+</body>
+
+</html>

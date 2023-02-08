@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+
+    <!-- Icons cdn link  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="shortcut icon" type="image/png" href="img/logo2.png" />
+
+    <title>Confederación Española de Asociaciones de Altas Capacidades</title>
+    <meta name="description" content="Confederación Española de Asociaciones de Altas Capacidades" />
+    <!--<meta property="og:title" content="Confederación Española de Asociaciones de Altas Capacidades" />
+  <meta property="og:description" content="A blog about frontend web development - tips, tricks, use cases, how-tos, examples, stories." />
+  <meta property="og:url" content="https://nikitahl.com/" />
+  <meta property="og:image" content="https://nikitahl.com/images/icons/twitter-image.png" />
+
+  <meta name="twitter:title" content="Frontend Dev Blog">
+  <meta name="twitter:description" content="A blog about frontend web development - tips, tricks, use cases, how-tos, examples, stories.">
+  <meta name="twitter:image" content="https://nikitahl.com/images/icons/twitter-image.png">
+  <meta name="twitter:card" content="summary_large_image">--->
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+    <div class="top-nav shadow-sm" id="home">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-auto">
+          </div>
+          <div class="col-auto">
+            <div class="row">
+              <div class="col-sm">
+                <div class="ml-3" id="google_translate_element"></div>
+              </div>
+              <div class="col-sm mb-3">
+                <div class="social-links text-center text-lg-right pt-3 pt-lg-0">
+                  <a href="#" class="increaseFont"><i class='bx bx-font-size'></i></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg shadow-sm navbar-light bg-white bg-gradient">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="quienes-somos.html">Quiénes Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="que-hacemos.html">Qué Hacemos</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="legislacion.html" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Legislación
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="nav-link dropdown-item" href="legislacion.html">Qué dicen las Leyes </a></li>
+                <li><a class="nav-link dropdown-item" href="criterios.html">Criterio y Normativas </a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="consultorio.html">Consultorio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="articulos.html">Artículos</a>
+            </li>
+
+          </ul>
+          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" type="button"
+            class="btn btn-brand ms-lg-3 ml-5">Contacto</a>
+        </div>
+      </div>
+    </nav>
+    <div class="image-aboutus-banner" id="about-us-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="lg-text">Artículos de Interés</h1>
+            <p class="image-aboutus-para">Artículos, conferencias y páginas web</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bread-bar mb-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-8">
+            <ol class="breadcrumb">
+              <li><a href="index.html">Inicio</a></li>
+              <li class="active">Artículos</li>
+            </ol>
+          </div>
+          <div class="col-md-4 col-sm-6 col-xs-4">
+          </div>
+        </div>
+      </div>
+    </div>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-4">
+            <div class="card h-100">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="img/programsforg.jpeg" class="img-fluid card-img-top" />
+
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body  flex-fill">
+                <h5 class="card-title"> ¿El derecho y el deber de educar pertenece al Estado, o a los
+                  padres?</h5>
+                <p class="card-text">
+                  El Prof. Jon Liberman. Doctor en Psiquiatría y en Derecho, nos
+                  lo aclara a partir del Artículo 10.2 de la Constitución.
+                </p>
+                <a href="https://altascapacidades.es/portalEducacion/html/articulos/EL%20PIN%20PARENTAL.pdf"
+                  target="_blank">Saber más
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="img/coloring-5017864_1280.jpeg" class="img-fluid card-img-top" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body  flex-fill">
+                <h5 class="card-title">El derecho a la educación personalizada ha llegado, ¡Actívelo!</h5>
+                <p class="card-text">
+                  La educación inclusiva o personalizada en España es un derecho
+                  humano fundamental de todos los estudiantes. Pero, para que
+                  los niños reciban la educación personalizada los padres deben
+                  activar este derecho.
+                </p>
+                <a href="https://altascapacidades.es/portalEducacion/html/articulos/EL%20PIN%20PARENTAL.pdf"
+                  target="_blank">Saber más
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="img/ABA.jpeg" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">La Teoría De Joseph Renzulli, En el Fundamento del Nuevo
+                  Paradigma de la Superdotación</h5>
+                <p class="card-text">
+                  Conferencia del Prof. Josep de Mirandés i Grabolosa
+                </p>
+                <a href="https://altascapacidades.es/portalEducacion/html/articulos/EL%20PIN%20PARENTAL.pdf"
+                  target="_blank">Saber más
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-4">
+            <div class="card  h-100">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="img/IUJQK5J8HQ28K8OKSW8C.jpeg" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">¿Conoce las capacidades y talentos de su hijo o hija? Usted
+                  las puede detectar</h5>
+                <p class="card-text">
+                  Todos los padres, mediante los cuestionarios que aquí se
+                  ofrecen, pueden obtener un conocimiento básico de cuáles son
+                  las capacidades de sus hijos. Después, llamando al centro
+                  homologado para el diagnóstico de las capacidades le
+                  interpretaran gratuitamente los resultados que haya obtenido.
+                </p>
+                <a href="https://www.altascapacidades.es/insti-internacional/insti-internacional/pagina/La_Deteccion.html"
+                  target="_blank">Saber más
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card  h-100">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="img/defensor.png" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Ni un solo niño con diagnóstico de Alta Capacidad sin recibir
+                  la educación diferente que necesita</h5>
+                <p class="card-text">
+                  La Institución El Defensor del Estudiante defienden el derecho
+                  fundamental de todos los estudiantes, siempre de forma
+                  totalmente gratuita.
+                </p>
+                <a href="https://www.altascapacidades.es/insti-internacional/insti-internacional/pagina/La_Deteccion.html"
+                  target="_blank">Saber más
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="img/portal.png" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                </a>
+              </div>
+              <div class="card-body ">
+                <h5 class="card-title">Portal Educación</h5>
+                <p class="card-text">
+                  Descubra y disfrute de los mejores contenidos para el
+                  necesario cambio educativo del Siglo XXI.
+                </p>
+
+                <a href="hhttps://altascapacidades.es/portalEducacion/html/portalEducacion.html" target="_blank">Saber más
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <nav class="my-4" aria-label="...">
+      <ul class="pagination pagination-circle justify-content-center">
+        <li class="page-item">
+          <a class="page-link" href="" tabindex="-1" aria-disabled="true">Previous</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+
+        <li class="page-item">
+          <a class="page-link" href="#">Next</a>
+        </li>
+      </ul>
+    </nav>
+    <footer>
+      <div class="container-fluid">
+        <div class="row mb-5">
+          <div class="col-md-4 col-sm-11 col-xs-11">
+            <div class="footer-text pull-left">
+              <a href="index.html"><img src="img/banner.jpeg" alt=""></a>
+              <p class="card-text mt-3 mb-3">Confederación que ofrece seguridad conceptual a los niños y jóvenes
+                científicamente
+                diagnosticados, a sus familias, y al conjunto de la sociedad.</p>
+
+
+            </div>
+          </div>
+
+          <div class="col-md-2 col-sm-1 col-xs-1 mb-2"></div>
+
+          <div class="col-md-2 col-sm-4 col-xs-4">
+            <h5 class="heading">Links</h5>
+            <ul class="links">
+              <li>
+                <a href="quienes-somos.html">Quiénes Somos</a>
+              </li>
+              <li>
+                <a href="que-hacemos.html">Qué Hacemos</a>
+              </li>
+              <li>
+                <a href="legislacion.html">Qué dicen las leyes</a>
+              </li>
+              <li>
+                <a href="criterios.html">Criterio y Normativas</a>
+              </li>
+              <li>
+                <a href="consultorio.html">Consultorio</a>
+              </li>
+              <li>
+                <a href="articulos.html">Artículos</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 col-sm-5 col-xs-5">
+            <h5 class="heading">Contacto</h5>
+            <ul>
+              <li><i class="bx bxs-envelope"></i> confederacion_ceas@hotmail.com</li>
+            </ul>
+          </div>
+
+
+        </div>
+
+        <div class="divider mb-4"></div>
+
+        <div class="row">
+
+          <div class="policy text-center">
+
+            Copyright &copy; <script>
+              document.write(new Date().getFullYear())
+            </script> All Rights Reserved. | By <a href="mailto:paula.r.cosano@gmail.com">
+              Paula Cosano
+            </a>
+          </div>
+        </div>
+      </div>
+      </div>
+      <button type="button" class="btn btn-floating btn-lg" id="btn-back-to-top">
+        <ion-icon name="chevron-up-outline"></ion-icon>
+      </button>
+    </footer>
+    <!-- Modal -->
+    <div class="modal fade bd-example-modal-lg" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog  modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title"></h5>
+            <button type="button" class="btn-close mr-5" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body p-0">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="text-center mt-3">
+                  <h3>¡Contáctanos!</h3>
+                </div>
+                <div class="col-lg-8">
+
+                  <form class="p-lg-5 col-12 row g-3" action="https://formsubmit.co/confederacion_ceas@hotmail.com"
+                    method="POST">
+
+                    <div class="col-12">
+
+                      <label for="userName" class="form-label">Nombre</label>
+                      <input name="name" type="text" class="form-control" placeholder="Tu nombre" id="userName"
+                        aria-describedby="emailHelp" required />
+                    </div>
+
+                    <div class="col-12">
+                      <label for="userName" class="form-label">Email</label>
+                      <input type="email" type="email" class="form-control" placeholder="email@ejemplo.com" id="userName"
+                        aria-describedby="emailHelp" name="email" required />
+                    </div>
+                    <div class="col-12">
+                      <label for="exampleInputEmail1" class="form-label">Mensaje</label>
+                      <textarea name="message" placeholder="Escribe su mensaje" class="form-control" id="" rows="10"
+                        cols="20" maxlength="”200”" required></textarea>
+                    </div>
+                    <input type="hidden" name="_next" value="https://confederacionceas.altascapacidades.es/thanks.html">
+
+
+                    <input type="hidden" name="_subject"
+                      value="Nuevo email de la Confederación Española de Asociaciones de Altas Capacidades">
+
+
+                    <div class="col-12">
+                      <button type="submit" class="btn btn-brand">
+                        Enviar mensaje
+                      </button>
+                    </div>
+                  </form>
+                </div>
+                <div class="col-lg-4 mt-5"> <img class="img-modal" src="img/undraw_letter_re_8m03.svg" alt="sent"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/app.js"></script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
+  </body>
+
+</html>
